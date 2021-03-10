@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-02-10T14:02:05.743-05:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/libs/settings/wcm/template-types/afpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Basic Adaptive Form Template"
+        fileReference="/content/dam/uxp/thumbnailimage.png"
+        status="enabled"/>
+</jcr:root>

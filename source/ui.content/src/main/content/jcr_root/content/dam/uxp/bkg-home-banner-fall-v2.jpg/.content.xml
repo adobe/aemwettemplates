@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="735ad2d8-63fd-421c-b9d6-76e42fd5f2e0">
+    <jcr:content
+        cq:name="bkg-home-banner-fall-v2.jpg"
+        cq:parentPath="/content/dam/uxp"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-12-15T13:55:26.729-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-12-15T13:55:26.296-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="7b69860f843d7e4f2fe0f97dadcc345b33a12fdd"
+            dam:size="{Long}159504"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2020-12-15T13:55:26.622-05:00"
+            jcr:lastModified="{Date}2020-12-15T13:55:26.622-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}726"
+            tiff:ImageWidth="{Long}1200"
+            xmp:CreatorTool="Adobe Photoshop CC 2018 (Windows)"
+            xmpMM:DocumentID="xmp.did:328B0F48DA2711E99AD6D859B5FBF645"
+            xmpMM:InstanceID="xmp.iid:328B0F47DA2711E99AD6D859B5FBF645">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:328B0F46DA2711E99AD6D859B5FBF645"
+                stRef:instanceID="xmp.iid:328B0F45DA2711E99AD6D859B5FBF645"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2020-11-18T11:29:19.847-05:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

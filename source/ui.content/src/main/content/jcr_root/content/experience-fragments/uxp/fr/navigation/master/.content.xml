@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-02-18T16:40:08.630-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/uxp/settings/wcm/templates/experience-fragment-web-variation"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header Navigation Menu"
+        jcr:uuid="2865ebf3-f497-44aa-a464-5e8630087cf2"
+        sling:resourceType="adobeuxp/components/structure/xfpage">
+        <root
+            jcr:lastModified="{Date}2020-11-27T14:37:54.970-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <wcontainer
+                jcr:created="{Date}2020-11-27T22:53:49.347-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-02-18T16:38:52.227-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="adobeuxp/components/content/wcontainer"
+                container="container"
+                id="wb-bc"
+                layout="responsiveGrid">
+                <navigation
+                    cq:styleIds="[1607353328575]"
+                    jcr:created="{Date}2021-02-18T16:39:14.415-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-02-18T16:39:45.166-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="adobeuxp/components/content/navigation"
+                    collectAllPages="true"
+                    disableShadowing="true"
+                    navigationRoot="/content/uxp"
+                    structureStart="1"/>
+                <breadcrumb
+                    jcr:created="{Date}2021-02-18T16:40:08.597-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-02-18T16:40:08.597-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="adobeuxp/components/content/breadcrumb"/>
+            </wcontainer>
+        </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+    <_x002e_content.xml_x007e_c93d1c95821105e63b9a1873c6dfc953ea6f8452/>
+    <_x002e_content.xml_x007e_fix_x0020_classes_x0020__x002b__x0020_add_x0020_form_x0020_template/>
+</jcr:root>

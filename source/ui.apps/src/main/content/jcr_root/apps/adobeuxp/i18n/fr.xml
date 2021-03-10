@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:folder">
+    <_x0028_Default_x0029_
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="(Défaut)"/>
+    <Basic_x0020_Adaptive_x0020_Form_x0020_Template
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Modèle de forme adaptatif de base"/>
+    <Container
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Récipient"/>
+    <copyright
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="&amp;copy; {0} Adobe UXP Site Site. All rights reserved."
+        sling:message="&amp;copy; {0} Adobe UXP Site Site. Tous droits réservés."/>
+    <Experience_x0020_Fragment
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Fragment d’expérience"/>
+    <Features
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Fonctionnalités"/>
+    <Fixed_x0020_custom_x0020_list
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Liste personnalisée fixe"/>
+    <Footer
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Pied de page"/>
+    <Footer_x0020_Brand
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Marque Footer"/>
+    <Footer_x0020_Landscape
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Paysage de footer"/>
+    <Generic_x0020_Page_x0020_Template
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Modèle de page générique"/>
+    <Generic_x0020_Service_x0020_Page_x0020_Template
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Modèle de page de service générique"/>
+    <Header
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="En-tête"/>
+    <Home_x0020_Most_x0020_requested
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Accueil Le plus demandé"/>
+    <Home_x0020_Page_x0020_Template
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Modèle de page d’accueil"/>
+    <Home_x0020_your_x0020_Government
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Accueil de votre gouvernement"/>
+    <Landscape_x0020_Footer_x0020_List
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Liste des pieds de paysage"/>
+    <Large_x0020_Desktop
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Grand bureau"/>
+    <Link_x0020_box
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Boîte de liens "/>
+    <Main
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Principales"/>
+    <Main_x0020_Home
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Maison Principale"/>
+    <Margin_x0020_Bottom_x0020_0
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Marge Bottom 0"/>
+    <Margin_x0020_Top_x0020_0
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Marge Top 0"/>
+    <Margin_x0020_Top_x0020_Lg
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Marge Top Lg"/>
+    <Medium_x0020_Desktop
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Bureau moyen"/>
+    <Most_x0020_Requested
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Le plus demandé"/>
+    <Most_x0020_requested_x0020_List
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Liste la plus demandée"/>
+    <Most_x0020_requested_x0020_Topic
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Sujet le plus demandé"/>
+    <No_x0020_Column
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Pas de colonne"/>
+    <Phone
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Téléphone"/>
+    <Pull_x0020_right
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Tirez à droite"/>
+    <Responsive_x0020_Grid
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Grille Réactive"/>
+    <Row
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Rangée"/>
+    <Row_x0020_equal_x0020_height
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Ligne égale hauteur"/>
+    <Services_x0020_and_x0020_information
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Services et informations"/>
+    <Tablet
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Tablette"/>
+    <Topic_x0020_Template
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Modèle de sujet"/>
+</jcr:root>

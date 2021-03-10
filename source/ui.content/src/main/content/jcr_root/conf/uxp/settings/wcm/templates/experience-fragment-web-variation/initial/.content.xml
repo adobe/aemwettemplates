@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2020-11-27T22:53:59.772-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/uxp/settings/wcm/templates/experience-fragment-web-variation"
+        cq:xfVariantType="web"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="adobeuxp/components/structure/xfpage">
+        <root
+            jcr:lastModified="{Date}2020-11-27T14:37:54.970-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <wcontainer
+                jcr:created="{Date}2020-11-27T22:53:49.347-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-27T22:53:59.770-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="adobeuxp/components/content/wcontainer"
+                container="section"
+                layout="responsiveGrid"/>
+        </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

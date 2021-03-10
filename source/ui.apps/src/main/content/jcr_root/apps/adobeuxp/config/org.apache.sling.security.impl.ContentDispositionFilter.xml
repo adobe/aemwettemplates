@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    sling.content.disposition.all.paths="{Boolean}false"
+    sling.content.disposition.excluded.paths="[/libs/cq/ui/resources/0.html,/etc/dam/viewers/s7viewers/html5/s7sdkclose.html,/etc/dam/viewers/s7viewers/html5/CarouselViewer.html,/etc/dam/viewers/s7viewers/html5/eCatalogViewer.html,/etc/dam/viewers/s7viewers/html5/BasicVideoViewer.html,/etc/dam/viewers/s7viewers/html5/BasicZoomViewer.html,/etc/dam/viewers/s7viewers/html5/ZoomViewer.html,/etc/dam/viewers/s7viewers/html5/FlyoutViewer.html,/etc/dam/viewers/s7viewers/html5/SpinViewer.html,/etc/dam/viewers/s7viewers/html5/VideoViewer.html,/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html,/etc/dam/viewers/s7viewers/html5/InteractiveImage.html,/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html,/etc/dam/viewers/s7sdk/2.9/flash/VideoPlayer.swf,/etc/dam/viewers/s7sdk/dev/flash/VideoPlayer.swf,/etc/dam/viewers/s7sdk/2.10/flash/VideoPlayer.swf,/etc/dam/viewers/s7sdk/2.11/flash/VideoPlayer.swf,/content/dam/uxp/wmms-blk.svg]"
+    sling.content.disposition.paths="[\0]"/>

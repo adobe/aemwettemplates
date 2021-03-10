@@ -1,0 +1,91 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2020 Adobe
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<template data-sly-template.responsiveGrid="${ @ container}">
+	<sly data-sly-test="${container.containerType=='SECTION'}">
+        <section id="${container.id}"  
+             class="cmp-container container"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}" ></sly>
+        </section>
+	</sly>
+	<sly data-sly-test="${container.containerType=='CONTAINER'}">
+        <div id="${container.id}"  
+             class="cmp-container container"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </div>
+	</sly>
+	<sly data-sly-test="${container.containerType=='ROW'}">
+        <div id="${container.id}"  
+             class="cmp-container row"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </div>
+	</sly>
+	<sly data-sly-test="${container.containerType=='ROWEQH'}">
+        <div id="${container.id}"  
+             class="cmp-container row"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegridEqh'}"></sly>
+        </div>
+	</sly>
+	<sly data-sly-test="${container.containerType=='MAIN'}">
+    	
+        <main id="${container.id}" resource="#wb-main" typeof="WebPageElement"
+             class="cmp-container container"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </main>
+	</sly>
+   	<sly data-sly-test="${container.containerType=='MAIN_HOME'}">
+    	
+        <main id="${container.id}" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement"
+             class="cmp-container"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </main>
+	</sly>
+   	<sly data-sly-test="${container.containerType=='HEADER'}">
+    	
+        <header id="${container.id}" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement"
+             class="cmp-container"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </header>
+	</sly>
+   	<sly data-sly-test="${container.containerType=='FOOTER'}">
+    	
+        <footer id="wb-info" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement"
+             class="cmp-container"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </footer>
+	</sly>
+   	<sly data-sly-test="${container.containerType=='NAV'}">
+        <nav id="${container.id}" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement"
+             class="cmp-container container wb-navcurr"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </nav>
+	</sly>
+    <sly data-sly-test="${container.containerType!='ROWEQH' && container.containerType!='ROW' && container.containerType!='SECTION' && container.containerType!='MAIN' && container.containerType!='MAIN_HOME' && container.containerType!='HEADER' && container.containerType!='FOOTER' && container.containerType!='NAV' && container.containerType!='CONTAINER'}">
+        <div id="${container.id}"  
+             class="cmp-container"
+             style="${container.backgroundStyle @ context='styleString'}">
+            <sly data-sly-resource="${resource @ resourceType='adobeuxp/components/content/responsivegrid'}"></sly>
+        </div>
+	</sly>
+</template>

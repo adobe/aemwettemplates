@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/libs/wcm/mobile/templates/devicegroup"
+        jcr:description="The devices in this group are able to display a website built using responsive design patterns."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2012-10-17T15:47:34.756-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Responsive Devices"
+        jcr:uuid="e9dd6a18-add8-4526-b38f-3bebb5225666"
+        sling:resourceType="wcm/mobile/components/devicegroup"
+        capabilities="[com.day.cq.wcm.mobile.api.device.capability.CSS,com.day.cq.wcm.mobile.api.device.capability.DeviceRotation,com.day.cq.wcm.mobile.api.device.capability.Images,com.day.cq.wcm.mobile.api.device.capability.JavaScript]"
+        disableEmulator="true"
+        emulators="[/apps/adobeuxp/components/emulators/tablet,/apps/adobeuxp/components/emulators/medDesktop,/apps/adobeuxp/components/emulators/smphone,/apps/adobeuxp/components/emulators/desktop]">
+        <emulator
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/mobile/components/devicegroup/emulator"/>
+    </jcr:content>
+    <static.css/>
+</jcr:root>

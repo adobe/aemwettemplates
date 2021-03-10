@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3fb60131-b179-4e05-8dec-0553d12aba56">
+    <jcr:content
+        cq:name="bkg-home-yourgov.jpg"
+        cq:parentPath="/content/dam/uxp"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-12-15T13:55:26.868-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-12-15T13:55:26.263-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}10.416666984558105"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}6.458333492279053"
+            dam:Progressive="yes"
+            dam:sha1="17b1bac7137d3c9360af92cfe9ef8d64ee9f0c63"
+            dam:size="{Long}26407"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2020-10-20T21:12:38.148-04:00"
+            exif:ColorSpace="{Long}1"
+            exif:ExifVersion="0221"
+            exif:FlashpixVersion="0100"
+            exif:PixelXDimension="{Long}465"
+            exif:PixelYDimension="{Long}750"
+            jcr:lastModified="{Date}2020-12-15T13:55:26.264-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}750"
+            tiff:ImageWidth="{Long}465"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="72/1"
+            tiff:YResolution="72/1"
+            xmp:CreateDate="{Date}2015-10-16T10:02:44.000-07:00"
+            xmp:CreatorTool="GIMP 2.8.22"
+            xmp:MetadataDate="{Date}2018-08-27T13:39:21.000-04:00"
+            xmp:ModifyDate="{Date}2018-08-27T13:39:21.000-04:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:06af85b1-7dd7-9d4d-af0e-d0831b653195"
+            xmpMM:InstanceID="xmp.iid:bee0edaa-12bd-4dac-b195-dda0683ec6df"
+            xmpMM:OriginalDocumentID="xmp.did:B28D73C92474E511B5CAD60DE275035E"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}3"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}3"
+                lastUsed="{Date}2019-09-05T14:15:26.751-04:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

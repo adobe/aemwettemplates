@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-02-08T11:11:39.281-05:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/uxp/settings/wcm/templates/experience-fragment-web-variation"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer Navigation Menu"
+        jcr:uuid="48f429bf-ab07-4c05-b84c-b4339d43dafd"
+        sling:resourceType="adobeuxp/components/structure/xfpage">
+        <root
+            jcr:lastModified="{Date}2020-11-27T14:37:54.970-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <wcontainer_footer
+                jcr:created="{Date}2020-12-08T10:59:40.617-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-12-09T11:31:29.945-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="adobeuxp/components/content/wcontainer"
+                container="footer"
+                id="wb-info"
+                layout="responsiveGrid">
+                <wcontainer
+                    cq:styleIds="[1607443611836]"
+                    jcr:created="{Date}2020-12-08T11:00:06.950-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-12-08T20:44:01.242-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="adobeuxp/components/content/wcontainer"
+                    container="navigation"
+                    layout="responsiveGrid">
+                    <gclist
+                        cq:styleIds="[1612210019383]"
+                        jcr:created="{Date}2020-12-08T11:00:22.806-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-02-02T15:37:14.298-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="adobeuxp/components/content/gcList"
+                        childDepth="1"
+                        linkItems="true"
+                        listFrom="custom"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any">
+                        <customListItems jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                title="Contactez-nous"
+                                url="https://www.canada.ca/fr/contact.html"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                title="Ministères et organismes"
+                                url="https://www.canada.ca/fr/gouvernement/min.html"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                title="Fonction publique et force militaire"
+                                url="https://www.canada.ca/fr/gouvernement/fonctionpublique.html"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                title="Nouvelles"
+                                url="https://www.canada.ca/fr/nouvelles.html"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                title="Traités, lois et règlements"
+                                url="https://www.canada.ca/fr/gouvernement/systeme/lois.html"/>
+                            <item5
+                                jcr:primaryType="nt:unstructured"
+                                title="Rapports à l'échelle du gouvernement"
+                                url="https://www.canada.ca/fr/transparence/rapports.html"/>
+                            <item6
+                                jcr:primaryType="nt:unstructured"
+                                title="Premier ministre"
+                                url="https://pm.gc.ca/fr"/>
+                            <item7
+                                jcr:primaryType="nt:unstructured"
+                                title="À propos du gouvernement"
+                                url="https://www.canada.ca/fr/gouvernement/systeme.html"/>
+                            <item8
+                                jcr:primaryType="nt:unstructured"
+                                title="Gouvernement ouvert"
+                                url="https://ouvert.canada.ca/fr"/>
+                        </customListItems>
+                    </gclist>
+                </wcontainer>
+                <wcontainer_168906547
+                    cq:styleIds="[1612209860765]"
+                    jcr:created="{Date}2020-12-15T14:45:22.365-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-12-15T14:45:42.226-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="adobeuxp/components/content/wcontainer"
+                    container="container"
+                    layout="responsiveGrid">
+                    <wcontainer
+                        jcr:created="{Date}2020-12-15T14:46:29.750-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-12-15T14:46:36.915-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="adobeuxp/components/content/wcontainer"
+                        container="row"
+                        layout="responsiveGrid">
+                        <wcontainer
+                            jcr:created="{Date}2020-12-15T14:46:50.641-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-12-15T14:47:03.438-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="adobeuxp/components/content/wcontainer"
+                            container="navigation"
+                            layout="responsiveGrid">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="10"/>
+                            </cq:responsive>
+                            <gclist
+                                jcr:created="{Date}2020-12-15T14:50:33.569-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2021-02-02T12:57:22.735-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="adobeuxp/components/content/gcList"
+                                childDepth="1"
+                                linkItems="true"
+                                listFrom="custom"
+                                showDescription="false"
+                                showModificationDate="false"
+                                sortOrder="asc"
+                                tagsMatch="any">
+                                <customListItems jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        title="Médias sociaux"
+                                        url="https://www.canada.ca/fr/sociaux.html"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        title="Applications mobiles"
+                                        url="https://www.canada.ca/fr/mobile.html"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        title="À propos de Canada.ca"
+                                        url="https://www.canada.ca/fr/gouvernement/a-propos.html"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        title="Avis"
+                                        url="https://www.canada.ca/fr/transparence/avis.html"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        title="Confidentialité"
+                                        url="https://www.canada.ca/fr/transparence/confidentialite.html"/>
+                                </customListItems>
+                            </gclist>
+                        </wcontainer>
+                        <wcontainer_1544656993
+                            jcr:created="{Date}2021-02-08T11:11:21.551-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-02-08T11:11:21.551-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="adobeuxp/components/content/wcontainer">
+                            <image
+                                jcr:created="{Date}2020-12-15T14:47:37.436-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2020-12-15T14:50:25.173-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="adobeuxp/components/content/image"
+                                altValueFromDAM="true"
+                                displayPopupTitle="true"
+                                fileReference="/content/dam/uxp/wmms-blk.svg"
+                                isDecorative="false"
+                                titleValueFromDAM="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="2"/>
+                                </cq:responsive>
+                            </image>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </wcontainer_1544656993>
+                    </wcontainer>
+                </wcontainer_168906547>
+            </wcontainer_footer>
+        </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

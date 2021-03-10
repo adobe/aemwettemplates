@@ -1,0 +1,28 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2020 Adobe
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<div class="pagedetails ${mod.dateModClass}" data-sly-use.mod="page-details.js">
+<div data-sly-test="${!mod.hideReportProblem || !mod.hideSharePage}" class="row">
+<div class="col-sm-6 col-md-5 col-lg-4">
+    <details data-sly-test="${!mod.hideReportProblem}" class="brdr-0">
+        <sly data-sly-resource="${ @path = 'report-problem', resourceType='adobeuxp/components/structure/page-details/mwsreportproblem' }" data-sly-unwrap/>
+    </details>
+</div>
+       	<div data-sly-test="${!mod.hideSharePage}" class="col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5">
+        <div class="wb-share" data-wb-share='{&#34;lnkClass&#34;: &#34;btn btn-default btn-block&#34;}'></div>
+        </div>
+</div>
+        <sly data-sly-resource="${ @path = 'last-modified', resourceType='adobeuxp/components/structure/page-details/last-modified' }" data-sly-unwrap/>
+</div>

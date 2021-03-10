@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-02-02T16:33:41.380-05:00"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2021-01-14T14:18:47.658-05:00"
+        cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
+        cq:translationSourcePath="/content/experience-fragments/uxp/en/header-banner"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header Banner"
+        jcr:uuid="2a404d75-110c-4301-8e3d-579fc54e5872"
+        sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
+    <master/>
+</jcr:root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    contentTypes="[text/html]"
+    enabled="{Boolean}true"
+    generatorType="jsoup-html-generator"
+    order="[1000]"
+    resourceTypes="[adobeuxp/components/structure/page,adobeuxp/components/structure/xfpage,adobeuxp/af/components/page2/aftemplatedpage]"
+    serializerType="htmlwriter"
+    transformerTypes="[wetgridmapping]">
+    <transformer-wetgridmapping
+        jcr:primaryType="nt:unstructured"
+        component-optional="{Boolean}true"
+        excludeClasses="[\0]"
+        includeClassesMapping="\{'aem-GridColumn--sm--6':'col-sm-6', 'aem-GridColumn--xs--12': 'col-xs-12','aem-GridColumn--default--4':'col-lg-4 col-md-6','aem-GridColumn--default--8':'col-lg-8','aem-GridColumn--default--6':'col-lg-6','aem-GridColumn--offset--default--0':'col-lg-offset-0','aem-GridColumn--offset--default--4':'col-md-offset-4','cmp-image__image':'img-responsive full-width ', 'aem-GridColumn--xs--hide': 'hidden-xs', 'cmp-image__title' :'caption', 'aem-GridColumn--md--hide': 'hidden-md', 'aem-GridColumn--offset--sm--0':'col-sm-offset-0','aem-GridColumn--offset--md--0':'col-md-offset-0', 'aem-GridColumn--md--12': 'col-md-12', 'aem-GridColumn--offset--xs--0':'col-xs-offset-0', 'aem-GridColumn--default--7':'col-lg-7 col-xs-12  col-md-6 mrgn-bttm-md', 'cmp-navigation':'container','aem-GridColumn--default--10':'col-md-10 ftr-urlt-lnk','aem-GridColumn--xs--9':'col-xs-9','aem-GridColumn--sm--5':'col-sm-5','aem-GridColumn--md--2':'col-md-2','aem-GridColumn--md--4':'col-md-4','cmp-breadcrumb__list': 'breadcrumb','aem-GridColumn--default--2':'col-md-2'}"
+        replaceClasses="\{'container':''}"
+        validComponentClasses="[wcontainer,cmp-list,cmp-navigation,cmp-image__image,title-1d309f0685,cmp-title__text,cmp-image,cmp-breadcrumb__list,experiencefragment]"/>
+</jcr:root>

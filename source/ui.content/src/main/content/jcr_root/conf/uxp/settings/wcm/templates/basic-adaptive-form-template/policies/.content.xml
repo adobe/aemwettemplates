@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-02-02T15:42:02.317-05:00"
+        cq:lastModifiedBy="admin"
+        cq:policy="adobeuxp/components/structure/page/policy_955386210733999"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <parsys1
+            cq:policy="wcm/foundation/components/responsivegrid/content-default"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <wcontainer
+                cq:policy="adobeuxp/components/content/wcontainer/policy_1607310193572"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <navigation
+                    cq:policy="adobeuxp/components/content/navigation/policy_1607353277201"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </wcontainer>
+        </parsys1>
+        <guideContainer
+            cq:policy="fd/af/components/guideContainer/default"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <rootPanel jcr:primaryType="nt:unstructured">
+                <items jcr:primaryType="nt:unstructured"/>
+            </rootPanel>
+        </guideContainer>
+        <parsys2
+            cq:policy="wcm/foundation/components/responsivegrid/content-default"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <wcontainer_1052428568
+                cq:policy="adobeuxp/components/content/wcontainer/policy_1607443900830"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <wcontainer
+                    cq:policy="adobeuxp/components/content/wcontainer/policy_1607443900830"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                    <gclist
+                        cq:policy="adobeuxp/components/content/gcList/policy_1607451132938"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                </wcontainer>
+                <wcontainer_168906547
+                    cq:policy="adobeuxp/components/content/wcontainer/policy_1607443900830"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                    <wcontainer jcr:primaryType="nt:unstructured">
+                        <wcontainer jcr:primaryType="nt:unstructured">
+                            <gclist
+                                cq:policy="adobeuxp/components/content/gcList/policy_1607451132938"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </wcontainer>
+                    </wcontainer>
+                </wcontainer_168906547>
+            </wcontainer_1052428568>
+            <wcontainer_1402565245 jcr:primaryType="nt:unstructured">
+                <wcontainer
+                    cq:policy="adobeuxp/components/content/wcontainer/policy_1607536581734"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <wcontainer_1052428568
+                    cq:policy="adobeuxp/components/content/wcontainer/policy_1607443900830"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                    <wcontainer
+                        cq:policy="adobeuxp/components/content/wcontainer/policy_1607443900830"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping">
+                        <gclist
+                            cq:policy="adobeuxp/components/content/gcList/policy_1607451132938"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                    </wcontainer>
+                    <wcontainer_168906547
+                        cq:policy="adobeuxp/components/content/wcontainer/policy_1607443900830"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                </wcontainer_1052428568>
+            </wcontainer_1402565245>
+        </parsys2>
+        <responsivegridBefore
+            cq:policy="adobeuxp/components/content/responsivegrid/policy_1612298467742"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping"/>
+        <responsivegridAfter
+            cq:policy="adobeuxp/components/content/responsivegrid/policy_1612298467742"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping"/>
+    </jcr:content>
+</jcr:root>

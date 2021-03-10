@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2021-02-10T14:57:05.026-05:00"
+    jcr:createdBy="admin"
+    jcr:description="UI apps package for Adobe UPX Project"
+    jcr:lastModified="{Date}2021-02-10T14:57:05.026-05:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-6.5.7.0"
+    group="adobeuxp/uxp"
+    lastUnwrapped="{Date}2021-02-10T14:57:05.026-05:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2021-02-10T14:57:05.026-05:00"
+    lastWrappedBy="admin"
+    name="adobeuxp.ui.apps"
+    subPackages="[]"
+    version="0.0.1-SNAPSHOT">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/adobeuxp"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/fd"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/packages/adobe/cq60/core.wcm.components.all-2.11.0.zip"
+            rules="[]"/>
+    </filter>
+    <thumbnail jcr:primaryType="nt:unstructured">
+        <file/>
+    </thumbnail>
+    <thumbnail.png/>
+</jcr:root>

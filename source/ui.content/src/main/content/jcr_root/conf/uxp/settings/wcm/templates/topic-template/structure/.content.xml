@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-02-19T14:16:52.346Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/uxp/settings/wcm/templates/topic-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="adobeuxp/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2020-11-13T12:41:23.464-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <wcontainer
+                jcr:created="{Date}2020-12-06T22:01:52.237-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-12-06T22:02:34.938-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="adobeuxp/components/content/wcontainer"
+                container="header"
+                layout="responsiveGrid">
+                <wcontainer
+                    jcr:created="{Date}2021-01-14T10:21:40.419-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-02-19T00:43:47.387Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="adobeuxp/components/content/wcontainer"
+                    container="container"
+                    id="wb-bnr"
+                    layout="responsiveGrid">
+                    <experiencefragment
+                        jcr:created="{Date}2021-01-14T10:22:02.636-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-02-19T00:43:41.659Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="adobeuxp/components/content/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/uxp/en/header-banner/master"/>
+                </wcontainer>
+                <wcontainer_1282369746
+                    jcr:created="{Date}2021-02-19T00:43:53.240Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-02-19T00:44:51.412Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="adobeuxp/components/content/wcontainer"
+                    container="default"
+                    layout="responsiveGrid">
+                    <experiencefragment_1
+                        jcr:created="{Date}2021-02-18T16:30:49.434-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-02-19T14:16:52.340Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="adobeuxp/components/content/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/uxp/en/navigation/header-nav-menu-and-breadcrump"/>
+                </wcontainer_1282369746>
+            </wcontainer>
+            <responsivegrid
+                jcr:created="{Date}2020-11-13T12:49:38.066-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-13T12:49:38.066-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="adobeuxp/components/content/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <breakpoints jcr:primaryType="nt:unstructured">
+                        <xs
+                            jcr:primaryType="nt:unstructured"
+                            title="Extra small devices Phones"
+                            width="{Long}576"/>
+                        <sm
+                            jcr:primaryType="nt:unstructured"
+                            title="Small devices Tablets"
+                            width="{Long}768"/>
+                        <md
+                            jcr:primaryType="nt:unstructured"
+                            title="Medium devices Desktops"
+                            width="{Long}992"/>
+                        <lg
+                            jcr:primaryType="nt:unstructured"
+                            title="Large devices Desktops"
+                            width="{Long}1200"/>
+                    </breakpoints>
+                </cq:responsive>
+            </responsivegrid>
+            <experiencefragment
+                jcr:created="{Date}2021-02-02T16:52:47.249-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-02-02T16:53:03.628-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="adobeuxp/components/content/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/uxp/en/navigation/footer-navigation-menu"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <xs
+                    jcr:primaryType="nt:unstructured"
+                    title="Extra small devices Phones"
+                    width="{Long}576"/>
+                <sm
+                    jcr:primaryType="nt:unstructured"
+                    title="Small devices Tablets"
+                    width="{Long}768"/>
+                <md
+                    jcr:primaryType="nt:unstructured"
+                    title="Medium devices Desktops"
+                    width="{Long}992"/>
+                <lg
+                    jcr:primaryType="nt:unstructured"
+                    title="Large devices Desktops"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

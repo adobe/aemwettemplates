@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="adobeuxp/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <xs
+                    jcr:primaryType="nt:unstructured"
+                    title="Extra small devices Phones"
+                    width="{Long}576"/>
+                <sm
+                    jcr:primaryType="nt:unstructured"
+                    title="Small devices Tablets"
+                    width="{Long}768"/>
+                <md
+                    jcr:primaryType="nt:unstructured"
+                    title="Medium devices Desktops"
+                    width="{Long}992"/>
+                <lg
+                    jcr:primaryType="nt:unstructured"
+                    title="Large devices Desktops"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
