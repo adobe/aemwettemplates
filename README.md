@@ -1,10 +1,28 @@
-# AEM - WET Compatibe Website Templates and Components 
+# Adobe AEM - WET Compatible Website Templates and Components 
 
 ## Introduction
+
+This project leverages Adobe AEM Sites and AEM Forms to create a citizen facing web interface to provide online services.
+
+The web interface is built using Adobe recommended best practices and leverages Government of Canada approved technology and UX standards.
+
+The web interface includes the following:
+
+* A set of AEM Sites WET compliant page templates and components that are using the latest [Adobe Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html). These WET compliant templates and components are used to build the informational part of the portal interface.
+
+* The templates are based on [editable templates](https://helpx.adobe.com/ca/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
+    
+* A set of AEM Forms WET compliant templates and components. These components are used to create the data capture/wizard interfaces to capture end-user data.
+
+* A simple bilingual website structure that leverages AEM to maintain dependency between languages.
+
+* A User service section to provide a list of available forms and forms that were submitted or saved as draft
 
 Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative websites that are accessible, usable, and interoperable (more details around WET can be found at https://github.com/wet-boew/wet-boew). Any web sites hosted for Government of Canada must create WET compatible HTML to meet WET accessibility requirements. 
 
 Purpose of this project is to allow AEM Authors to use “basic” set of Editable Templates / Core Components to create WET compatible pages. 
+
+
 
 
 ## Usage
