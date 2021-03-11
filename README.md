@@ -23,7 +23,7 @@ Web Experience Toolkit (WET) includes reusable components for building and maint
 Purpose of this project is to allow AEM Authors to use “basic” set of Editable Templates / Core Components to create WET compatible pages.  
 
 
-**Sample page create with the package:**
+**Sample page created with the package:**
 
 ![GCHome](https://user-images.githubusercontent.com/39708218/110717535-4164aa00-81d7-11eb-8df1-8e75188ac94a.JPG)
 <br>
