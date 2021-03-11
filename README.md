@@ -1,4 +1,4 @@
-# AEM - WET Compatibe Editable Template 
+# AEM - WET Compatibe Website Templates and Components 
 
 ## Introduction
 
