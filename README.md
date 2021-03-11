@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This project leverages Adobe AEM Sites and AEM Forms to create a citizen facing web interface to provide online services.
+This project leverages Adobe AEM Sites and AEM Forms to create a citizen facing web interfaces to provide online services.
 
 The web interface is built using Adobe recommended best practices and leverages Government of Canada approved technology and UX standards.
 
-The web interface includes the following:
+The web interfaces includes the following:
 
 * A set of AEM Sites WET compliant page templates and components that are using the latest [Adobe Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html). These WET compliant templates and components are used to build the informational part of the web interface.
 
