@@ -8,7 +8,7 @@ The web interface is built using Adobe recommended best practices and leverages 
 
 The web interface includes the following:
 
-* A set of AEM Sites WET compliant page templates and components that are using the latest [Adobe Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html). These WET compliant templates and components are used to build the informational part of the portal interface.
+* A set of AEM Sites WET compliant page templates and components that are using the latest [Adobe Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html). These WET compliant templates and components are used to build the informational part of the web interface.
 
 * The templates are based on [editable templates](https://helpx.adobe.com/ca/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
     
