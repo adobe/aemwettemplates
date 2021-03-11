@@ -14,9 +14,9 @@ The web interface includes the following:
     
 * A set of AEM Forms WET compliant templates and components. These components are used to create the data capture/wizard interfaces to capture end-user data.
 
-* A simple bilingual website structure that leverages AEM to maintain dependency between languages.
+* A sample bilingual website structure that leverages AEM to maintain dependency between languages.
 
-* A User service section to provide a list of available forms and forms that were submitted or saved as draft
+* A User service section that provides a list of available forms as well as forms that were submitted or saved as draft
 
 Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative websites that are accessible, usable, and interoperable (more details around WET can be found at https://github.com/wet-boew/wet-boew). Any web sites hosted for Government of Canada must create WET compatible HTML to meet WET accessibility requirements. 
 
