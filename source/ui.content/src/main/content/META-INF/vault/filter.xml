@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/uxp" mode="replace"/>
-    <filter root="/content/uxp" mode="merge"/>
-    <filter root="/content/experience-fragments/uxp" mode="merge"/>
-    <filter root="/content/dam/uxp" mode="merge"/>
-    <filter root="/content/dam/formsanddocuments/uxp" mode="merge"/>
-	<filter root="/content/forms/af/uxp/" mode="merge"/>	
-    <filter root="/content/dam/formsanddocuments-themes/themeLibrary/wetcompliance" mode="merge"/>
-    <filter root="/content/forms/af/adobe-uxp-forms" mode="merge"/>
-    <filter root="/etc/clientlibs/fd/themes/themeLibrary/wetcompliance" mode="merge"/>
-    <filter root="/etc/mobile/groups/responsive" mode="merge"/>
+    <filter root="/content/uxp" mode="update"/>
+    <filter root="/content/experience-fragments/uxp"/>
+    <filter root="/content/dam/uxp"/>
+    <filter root="/content/dam/formsanddocuments/uxp" mode="update"/>
+	<filter root="/content/forms/af/uxp/" mode="update"/>
+    <filter root="/content/dam/formsanddocuments-themes/themeLibrary/wetcompliance" mode="update"/>
+    <filter root="/content/forms/af/adobe-uxp-forms" mode="update"/>
+    <filter root="/etc/clientlibs/fd/themes/themeLibrary/wetcompliance" mode="update"/>
+    <filter root="/etc/mobile/groups/responsive" mode="update"/>
 </workspaceFilter>

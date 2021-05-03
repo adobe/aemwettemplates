@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        dam:relativePath="formsanddocuments-themes/reference-themes/canvas-3-0"
+        jcr:lastModified="{Date}2020-04-27T15:11:50.603-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/theme/render"
+        theme="1"
+        type="theme">
+        <metadata
+            dc:format="application/octet-stream"
+            dc:modified="{Date}2018-03-18T12:54:32.622+05:30"
+            fd:targetVersion="1.1"
+            fd:version="1.1"
+            jcr:lastModified="{Date}2019-02-27T21:08:34.383-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            clientlibCategory="fdtheme.themeLibrary.wetcompliance"
+            clientlibRef="/etc/clientlibs/fd/themes/themeLibrary/wetcompliance"
+            description="Wetcompliance Theme"
+            title="Wetcompliance Theme"
+            writebackEnable="{Boolean}true">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <xs
+                    jcr:primaryType="nt:unstructured"
+                    title="Extra small devices Phones"
+                    width="{Long}576"/>
+                <sm
+                    jcr:primaryType="nt:unstructured"
+                    title="Small devices Tablets"
+                    width="{Long}768"/>
+                <md
+                    jcr:primaryType="nt:unstructured"
+                    title="Medium devices Desktops"
+                    width="{Long}992"/>
+                <lg
+                    jcr:primaryType="nt:unstructured"
+                    title="Large devices Desktops"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </metadata>
+    </jcr:content>
+</jcr:root>

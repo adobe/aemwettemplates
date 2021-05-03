@@ -1,3 +1,18 @@
+
+html {
+    font-size: 16px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body{
+font-family:Arial;
+line-height:1.42857143;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;
+margin-top:0px;
+
+}
 .guideImage img{
 height:auto;
 max-height:100%;
@@ -6,15 +21,6 @@ margin-left:0.75rem;
 margin-top:1rem;
 width:inherit;
 max-width:calc(100% - 1.5rem);
-
-}
-body{
-font-family:Arial;
-line-height:1.42857143;
-margin-left:0px;
-margin-bottom:0px;
-margin-right:0px;
-margin-top:0px;
 
 }
 .guideChart{

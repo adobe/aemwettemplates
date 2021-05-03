@@ -26,4 +26,5 @@
         data-cmp-data-layer="${button.data.json}">
     <sly data-sly-call="${iconTemplate.icon @ icon=button.icon}"></sly>
     <span data-sly-test="${button.text}" class="cmp-button__text">${button.text}</span>
+    <span data-sly-text="${!button.text}" class="cmp-button__text">Button</span>
 </button>

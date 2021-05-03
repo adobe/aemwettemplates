@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        jcr:lastModified="{Date}2015-07-27T17:03:22.441+05:30"
+        jcr:primaryType="nt:unstructured"
+        rendition.handler.id="theme.structure">
+        <components jcr:primaryType="nt:unstructured">
+            <af_guideContainer
+                jcr:primaryType="nt:unstructured"
+                component="fd/af/components/guideContainer">
+                <af_guideimage
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:100%,width:inherit,max-width:100%,max-height:100%]"/>
+                <af_page
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[font-family:Arial,line-height:1.42857143,margin-left:0px,margin-bottom:0px,margin-right:0px,margin-top:0px]"
+                    default_x0023_default_x0023_ui="[marginPopover:0px]"/>
+                <af_chart
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:100%,width:inherit,max-width:100%,max-height:100%]"/>
+                <af_field
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-bottom:5px,margin-top:5px,padding-right:5px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:5px\, —\, 5px\, —,paddingLock:linkOff,paddingPopover:—\, 5px\, —\, —]"/>
+                <af_fielddescriptionlong
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-bottom:5px,margin-right:0px,margin-left:30%,margin-top:5px,clear:both,border-bottom-right-radius:3px,border-bottom-left-radius:3px,border-top-right-radius:4px,border-top-left-radius:4px,display:none,padding-left:15px,padding-right:15px,border-color:#d6d6d6,border-style:solid,border-left-width:3px,border-bottom-width:1px,border-right-width:1px,border-top-width:1px,cssOverride:border-left-color : #007fa2;&#xa;transition: all 2s;,background:#eeeeee,font-size:14px,color:#333333,width:60%]"
+                    default_x0023_default_x0023_ui="[marginPopover:5px\, 0px\, 5px\, 30%,borderRadiusPopover:4px\, 4px\, 3px\, 3px,borderRadiusLock:linkOff,paddingLock:linkOff,borderWidthPopover:1px\, 1px\, 1px\, 3px,borderWidthLock:linkOff,marginLock:linkOff,backgroundColor:#eeeeee,paddingPopover:—\, 15px\, —\, 15px]"
+                    phone_x0023_default="[width:100%,margin-left:0px]"
+                    phone_x0023_default_x0023_ui="[paddingLock:link,marginPopover:—\, —\, —\, 0px,paddingPopover:Set,marginLock:linkOff]"/>
+                <af_fieldlabel
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[color:#333333,line-height:1.42857143,font-size:16px,font-weight:normal,margin-bottom:0px,margin-top:10px,margin-left:0px,margin-right:0px,addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot;.guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;30%&quot;\,&quot;display&quot;:&quot;inline-block&quot;}}}},text-align:right,padding-right:30px]"
+                    default_x0023_default_x0023_ui="[width:30%,marginPopover:10px\, 0px\, 0px\, 0px,marginLock:linkOff,display:inline-block,paddingLock:linkOff,paddingPopover:—\, 30px\, —\, —]"
+                    phone_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot;.guideFieldLabel&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;auto&quot;\,&quot;display&quot;:&quot;block&quot;}}}},text-align:left,padding-bottom:5px,padding-right:5px,padding-top:5px,padding-left:5px]"
+                    phone_x0023_default_x0023_ui="[display:block,width:auto,paddingLock:link,paddingPopover:5px]"/>
+                <af_widgetAndText
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[border-style:solid,border-top-width:1px,border-left-width:1px,border-bottom-width:1px,border-right-width:1px,border-bottom-left-radius:4px,border-bottom-right-radius:4px,border-top-right-radius:4px,border-top-left-radius:4px,border-color:#cde0ec,height:38px,color:#333333,font-size:14px,line-height:1.42857143,padding-bottom:2px,padding-left:2px,padding-top:2px,padding-right:2px,margin-bottom:0px,margin-top:0px,margin-left:0px,margin-right:0px,background:#ffffff,addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot; .guideFieldWidget:not(.guideFieldButtonWidget)&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;60%&quot;\,&quot;display&quot;:&quot;inline-block&quot;}}}}]"
+                    default_x0023_default_x0023_ui="[marginPopover:0px,marginLock:link,paddingPopover:2px,paddingLock:link,borderWidthPopover:1px,borderWidthLock:link,borderRadiusPopover:4px,borderRadiusLock:link,backgroundColor:#ffffff,width:60%,display:inline-block]"
+                    phone_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot;.guideFieldWidget&quot;\,&quot;properties&quot;:{&quot;width&quot;:&quot;100%&quot;\,&quot;display&quot;:&quot;block&quot;}}}}]"
+                    phone_x0023_default_x0023_ui="[width:100%,display:block]"/>
+                <af_checkboxfieldwidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[width:60%,display:inline-block]"/>
+                <af_checkboxlabel
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-left:0px,margin-bottom:0px,margin-right:0px,margin-top:0px,addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot;.guideCheckBoxItem .guideWidgetLabel&quot;\,&quot;properties&quot;:{&quot;display&quot;:&quot;inline-block&quot;\,&quot;float&quot;:&quot;none&quot;}}}},line-height:48px,vertical-align:middle]"
+                    default_x0023_default_x0023_ui="[display:inline-block,marginLock:link,marginPopover:0px,float:none]"/>
+                <af_checkboxwidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[float:none,width:13px,padding-left:0px,padding-bottom:0px,padding-top:0px,padding-right:0px,height:auto]"
+                    default_x0023_default_x0023_ui="[paddingPopover:0px]"/>
+                <af_numericstepperwidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[width:40%,min-width:200px,border-top-width:1px,border-left-width:1px,border-bottom-width:1px,border-right-width:1px,border-style:solid,border-color:#cde0ec,background:#FFFFFF,border-bottom-right-radius:0.25rem,border-bottom-left-radius:0.25rem,border-top-left-radius:0.25rem,border-top-right-radius:0.25rem]"
+                    default_x0023_default_x0023_ui="[borderWidthPopover:1px,borderWidthLock:link,backgroundColor:#FFFFFF,borderRadiusPopover:0.25rem]"/>
+                <af_numericstepperinput
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[width:calc(100% - 5rem),border-top-width:0px,border-left-width:0px,border-bottom-width:0px,border-right-width:0px,text-align:center]"
+                    default_x0023_default_x0023_ui="[borderWidthPopover:0px,borderWidthLock:link]"/>
+                <af_numericstepperdecrementbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[width:2.5rem,height:2.5rem,display:inline-block,float:left,border-top-left-radius:0.25rem,border-bottom-left-radius:0.25rem,cssOverride:cursor : pointer;&#xa;,background:url(/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Minus.svg) center center / 0.75rem 0.75rem no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1452501163808&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Minus.svg&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;size&quot;:&quot;custom&quot;\,&quot;width&quot;:&quot;0.75rem&quot;\,&quot;height&quot;:&quot;0.75rem&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]},borderRadiusLock:linkOff,borderRadiusPopover:0.25rem\, —\, 0.25rem\, —]"
+                    default_x0023_focus="[background:url(/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Minus_Hover.svg) center center / 0.75rem 0.75rem no-repeat]"
+                    default_x0023_focus_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1452501353416&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Minus_Hover.svg&quot;\,&quot;size&quot;:&quot;custom&quot;\,&quot;width&quot;:&quot;0.75rem&quot;\,&quot;height&quot;:&quot;0.75rem&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_hover="[background:url(/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Minus_Hover.svg) center center / 0.75rem 0.75rem no-repeat]"
+                    default_x0023_hover_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1452501353412&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Minus_Hover.svg&quot;\,&quot;size&quot;:&quot;custom&quot;\,&quot;width&quot;:&quot;0.75rem&quot;\,&quot;height&quot;:&quot;0.75rem&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_numericstepperincrementbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[width:2.5rem,height:2.5rem,float:right,display:inline-block,cssOverride:cursor : pointer;&#xa;,border-top-right-radius:0.25rem,border-bottom-right-radius:0.25rem,background:url(/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Plus.svg) center center / 0.75rem 0.75rem no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1452501353410&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Plus.svg&quot;\,&quot;size&quot;:&quot;custom&quot;\,&quot;width&quot;:&quot;0.75rem&quot;\,&quot;height&quot;:&quot;0.75rem&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]},borderRadiusLock:linkOff,borderRadiusPopover:—\, 0.25rem\, —\, 0.25rem]"
+                    default_x0023_focus="[background:url(/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Plus_Hover.svg) center center / 0.75rem 0.75rem no-repeat]"
+                    default_x0023_focus_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1452501353415&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Plus_Hover.svg&quot;\,&quot;size&quot;:&quot;custom&quot;\,&quot;width&quot;:&quot;0.75rem&quot;\,&quot;height&quot;:&quot;0.75rem&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_hover="[background:url(/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Plus_Hover.svg) center center / 0.75rem 0.75rem no-repeat]"
+                    default_x0023_hover_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1452501353411&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/widgets/numericStepper/less/images/Plus_Hover.svg&quot;\,&quot;size&quot;:&quot;custom&quot;\,&quot;width&quot;:&quot;0.75rem&quot;\,&quot;height&quot;:&quot;0.75rem&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_radiobuttonwidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[display:inline-block,width:60%]"/>
+                <af_radiobuttonitemlabel
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot;.guideRadioButtonItem .guideWidgetLabel&quot;\,&quot;properties&quot;:{&quot;display&quot;:&quot;inline-block&quot;\,&quot;float&quot;:&quot;none&quot;}}}},margin-left:0px,margin-bottom:0px,margin-right:0px,margin-top:0px,vertical-align:bottom,line-height:48px]"
+                    default_x0023_default_x0023_ui="[display:inline-block,float:none,marginLock:link,marginPopover:0px]"/>
+                <af_radiobuttonwidget
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[float:none,width:13px,border-bottom-right-radius:15px,border-bottom-left-radius:15px,border-top-right-radius:15px,border-top-left-radius:15px,padding-left:0px,padding-bottom:0px,padding-top:0px,padding-right:0px,height:auto,vertical-align:middle]"
+                    default_x0023_default_x0023_ui="[borderRadiusPopover:15px,paddingPopover:0px]"/>
+                <af_textareawidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:76px]"/>
+                <af_switchwidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_checked="[border-left-width:0px,border-bottom-width:0px,border-right-width:0px,border-top-width:0px,border-color:rgba(0\,0\,0\,0),background:rgba(0\,0\,0\,0),font-weight:normal]"
+                    default_x0023_checked_x0023_ui="[borderWidthPopover:0px,backgroundColor:rgba(0\,0\,0\,0)]"
+                    default_x0023_default="[height:24px,margin-top:5px,padding-bottom:0px,padding-top:0px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:5px\, —\, —\, —,display:inline-block,paddingPopover:0px\, —\, 0px\, —,position:relative,positionPopover:relative,paddingLock:linkOff]"/>
+                <af_switchhandle
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:linear-gradient(180deg\,rgb(215\,215\,215)\,rgb(252\,252\,252)),width:22px,height:22px,display:block,position:absolute,border-bottom-right-radius:12px,border-bottom-left-radius:12px,border-top-left-radius:12px,border-top-right-radius:12px,margin-top:0px,margin-left:0px,margin-right:0px,margin-bottom:0px,border-left-width:1px,border-bottom-width:1px,border-right-width:1px,border-top-width:1px,border-style:solid,border-color:rgb(162\,162\,162)]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;gradient.1455189229940&quot;\,&quot;color1&quot;:&quot;rgb(215\,215\,215)&quot;\,&quot;color2&quot;:&quot;rgb(252\,252\,252)&quot;}]},borderRadiusLock:link,positionPopover:absolute,borderWidthPopover:1px,borderRadiusPopover:12px,paddingPopover:Set,marginLock:link,marginPopover:0px]"/>
+                <af_switchonlabel
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:linear-gradient(180deg\,rgb(125\,147\,86)\,rgb(193\,218\,147)),font-size:14px,line-height:18px,font-weight:bold,text-transform:uppercase,height:20px,padding-top:4px,display:block,margin-bottom:5px,margin-top:0px,overflow:hidden,position:absolute,color:rgb(255\,255\,255)]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;gradient.1455189229940&quot;\,&quot;color1&quot;:&quot;rgb(125\,147\,86)&quot;\,&quot;color2&quot;:&quot;rgb(193\,218\,147)&quot;}]},borderRadiusPopover:12px,paddingLock:linkOff,paddingPopover:4px\, —\, —\, —,marginPopover:0px\, —\, 5px\, —,marginLock:linkOff,positionPopover:absolute]"/>
+                <af_switchofflabel
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:linear-gradient(180deg\,rgb(185\,185\,185)\,rgb(248\,248\,248)),font-size:14px,line-height:18px,font-weight:bold,text-transform:uppercase,height:20px,padding-top:4px,padding-right:0px,display:block,margin-bottom:5px,margin-top:0px,overflow:hidden,position:absolute,color:rgb(124\,124\,124)]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;gradient.1455189229940&quot;\,&quot;color1&quot;:&quot;rgb(185\,185\,185)&quot;\,&quot;color2&quot;:&quot;rgb(248\,248\,248)&quot;}]},borderRadiusPopover:12px,paddingLock:linkOff,paddingPopover:4px\, —\, —\, —,marginPopover:0px\, —\, 5px\, —,marginLock:linkOff,positionPopover:absolute]"/>
+                <af_tncwidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[border-left-width:0px,border-bottom-width:0px,border-right-width:0px,border-top-width:0px]"
+                    default_x0023_default_x0023_ui="[borderWidthPopover:0px]"/>
+                <af_tncconsentcheckbox
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[width:13px,margin-left:10px,margin-right:10px,margin-top:2px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:2px\, 10px\, —\, 10px]"/>
+                <af_tnccontent
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:#FFFFFF,overflow:auto,border-style:solid,border-top-width:1px,border-left-width:1px,border-bottom-width:1px,border-right-width:1px,border-color:#cde0ec,margin-bottom:5px,padding-left:4px,padding-bottom:4px,padding-right:4px,padding-top:4px]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#FFFFFF,borderWidthPopover:1px,borderWidthLock:link,marginLock:linkOff,marginPopover:—\, —\, 5px\, —,paddingPopover:4px]"/>
+                <af_tncpopupcontent
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-left:20px,margin-bottom:20px,margin-right:20px,margin-top:20px]"
+                    default_x0023_default_x0023_ui="[marginPopover:20px]"/>
+                <af_tncpopupheader
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:#AFB0B5,min-height:16.42857143px,border-top-right-radius:6px,border-top-left-radius:6px,padding-left:15px,padding-bottom:15px,padding-right:15px,padding-top:15px,border-left-width:0px,border-bottom-width:1px,border-right-width:0px,border-top-width:0px,border-style:solid,border-color:#e5e5e5]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#AFB0B5,borderRadiusLock:linkOff,borderRadiusPopover:6px\, 6px\,—\,—,paddingPopover:15px,borderWidthPopover:0px\, 0px\, 1px\, 0px,borderWidthLock:linkOff]"/>
+                <af_dropdownlistwidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:38px]"/>
+                <af_formtitle
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-top:20px,font-size:24px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:20px\, —\, —\, —]"/>
+                <af_helpicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[display:inline-block,position:absolute,top:8px,right:8px,width:18px,height:18px,border-bottom-right-radius:9px,border-bottom-left-radius:9px,border-top-left-radius:9px,border-top-right-radius:9px,background:url(/etc/clientlibs/fd/af/guidetheme2/images/questionmark.svg) center center / cover no-repeat\,#007fa2,cssOverride:cursor : pointer;&#xa;]"
+                    default_x0023_default_x0023_ui="[positionPopover:absolute,borderRadiusPopover:9px,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453643419962&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/questionmark.svg&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center center&quot;}]},backgroundColor:#007fa2]"
+                    default_x0023_hover="[background:url(/etc/clientlibs/fd/af/guidetheme2/images/questionmark.svg) left top / cover no-repeat\,#016e8f]"
+                    default_x0023_hover_x0023_ui="[backgroundColor:#016e8f,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454170474665&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/questionmark.svg&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;size&quot;:&quot;cover&quot;}]}]"/>
+                <af_panelhelpicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[position:relative,left:5px,top:0px]"
+                    default_x0023_default_x0023_ui="[positionPopover:relative]"/>
+                <af_panelhelp
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:#d3d3d3,border-left-width:0px,border-bottom-width:0px,border-right-width:0px,border-top-width:3px,border-style:solid,border-color:#00bfff,padding-left:10px,padding-right:10px,padding-top:10px,padding-bottom:10px,margin-bottom:10px]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#d3d3d3,borderWidthPopover:3px\, 0px\, 0px\, 0px,borderWidthLock:linkOff,paddingPopover:10px,marginLock:linkOff,marginPopover:—\, —\, 10px\, —]"/>
+                <af_responsivepaneldescription
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-bottom:10px,font-size:24px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, —\, 10px\, —]"/>
+                <af_mobilemenu
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[background:#f1f1f1,cssOverride:list-style: none;&#xa;cursor: pointer;&#xa;overflow: hidden,padding-left:0px,padding-bottom:0px,padding-top:0px,padding-right:0px,margin-left:0px,margin-bottom:0px,margin-top:0px,margin-right:0px]"
+                    phone_x0023_default_x0023_ui="[backgroundColor:#f1f1f1,paddingPopover:0px,marginPopover:0px]"/>
+                <af_mobilemenubutton
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[margin-bottom:13px,border:none,float:right,cursor:pointer,padding-top:0px,padding-right:0px,padding-bottom:0px,padding-left:0px,width:34px,height:30px,background:url(/etc/clientlibs/fd/af/guidetheme2/images/menu.svg) 10px 8px / cover no-repeat\,#d53058]"
+                    phone_x0023_default_x0023_ui="[marginPopover:—\, —\, 13px\, —,marginLock:linkOff,paddingPopover:0px,paddingLock:link,backgroundColor:#d53058,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454232845918&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/menu.svg&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;position&quot;:&quot;custom&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;x-position&quot;:&quot;10px&quot;\,&quot;y-position&quot;:&quot;8px&quot;}]}]"
+                    phone_x0023_hover="[background:url(/etc/clientlibs/fd/af/guidetheme2/images/menu.svg) 10px 8px / cover no-repeat\,#c6264c]"
+                    phone_x0023_hover_x0023_ui="[backgroundColor:#c6264c,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454232873068&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/menu.svg&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;position&quot;:&quot;custom&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;x-position&quot;:&quot;10px&quot;\,&quot;y-position&quot;:&quot;8px&quot;}]}]"/>
+                <af_mobilemenuitem
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_active="[background:#007fa2,color:#FFFFFF]"
+                    phone_x0023_active_x0023_ui="[backgroundColor:#007fa2]"
+                    phone_x0023_default="[color:#3d3d3d,background:#f1f1f1,font-size:16px,padding-left:30px,width:100%,margin-left:0px,margin-bottom:2px,margin-top:0px,margin-right:0px,padding-right:16px,padding-top:10px,padding-bottom:10px,cssOverride:text-decoration: none;]"
+                    phone_x0023_default_x0023_ui="[backgroundColor:#f1f1f1,paddingLock:linkOff,paddingPopover:10px\, 16px\, 10px\, 30px,marginPopover:0px\, 0px\, 2px\, 0px,marginLock:linkOff]"
+                    phone_x0023_disabled="[opacity:0.5]"/>
+                <af_mobilescrollindicator
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[display:block,z-index:55,position:fixed,bottom:20px,right:0px,width:50px,height:50px,background:url(/etc/clientlibs/fd/af/images/more-arrow.png) left top no-repeat]"
+                    phone_x0023_default_x0023_ui="[positionPopover:fixed,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454264518458&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/more-arrow.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_mobiletitlebar
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[background:#00283c,color:#ffffff,padding-bottom:0px,padding-left:0px,padding-top:0px,padding-right:0px,text-transform:uppercase]"
+                    phone_x0023_default_x0023_ui="[backgroundColor:#00283c,paddingPopover:0px,paddingLock:link]"/>
+                <af_mobiletitlebarnextnav
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[position:relative,display:inline-block,background:url(/etc/clientlibs/fd/af/guidetheme2/images/next.svg) center center / cover no-repeat,margin-left:10px,margin-bottom:0px,margin-top:8px,margin-right:0px,width:30px,height:30px,cssOverride:cursor : pointer;&#xa;]"
+                    phone_x0023_default_x0023_ui="[marginLock:linkOff,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454240604557&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/next.svg&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]},marginPopover:8px\, 0px\, 0px\, 10px]"/>
+                <af_mobiletitlebarprevnav
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[position:relative,display:inline-block,background:url(/etc/clientlibs/fd/af/guidetheme2/images/prev.svg) center center / cover no-repeat,margin-left:0px,margin-bottom:0px,margin-top:8px,margin-right:10px,width:30px,height:30px,cssOverride:cursor : pointer;&#xa;]"
+                    phone_x0023_default_x0023_ui="[marginLock:linkOff,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454240604557&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/prev.svg&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]},marginPopover:8px\, 10px\, 0px\, 0px]"/>
+                <af_mobiletitlebartitle
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[float:left,padding-top:10px,padding-bottom:10px,padding-left:10px,color:#FFFFFF]"
+                    phone_x0023_default_x0023_ui="[paddingPopover:10px\, —\, 10px\, 10px,paddingLock:linkOff]"/>
+                <af_accordionpanelheader
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[color:#ffffff,background:url(/etc/clientlibs/fd/af/images/collapse_white.png) left center no-repeat\,#007fa2]"
+                    default_x0023_active_x0023_ui="[backgroundColor:#007fa2,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454047995903&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/collapse_white.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;left center&quot;}]}]"
+                    default_x0023_default="[display:block,border-style:solid,border-top-width:0px,border-left-width:0px,border-bottom-width:0px,border-right-width:0px,border-color:#000000,padding-bottom:8px,padding-left:25px,padding-top:8px,padding-right:8px,font-size:16px,text-decoration:none,color:#3d3d3d,cursor:pointer,background:url(/etc/clientlibs/fd/af/images/expand.png) left center no-repeat\,#f1f1f1]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#f1f1f1,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454047923118&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/expand.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;left center&quot;}]}]"/>
+                <af_accordionpaneladdbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[background:url(/etc/clientlibs/fd/af/images/add_white.png) left top no-repeat]"
+                    default_x0023_active_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454048109098&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/add_white.png&quot;\,&quot;position&quot;:&quot;left top&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_default="[border:none,width:25px,height:25px,background:url(/etc/clientlibs/fd/af/images/add.png) left top no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454048055791&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/add.png&quot;\,&quot;position&quot;:&quot;left top&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_hover="[background:url(/etc/clientlibs/fd/af/images/add_hover.png) left top no-repeat]"
+                    default_x0023_hover_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454048095865&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/add_hover.png&quot;\,&quot;position&quot;:&quot;left top&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_accordionpanelremovebutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[background:url(/etc/clientlibs/fd/af/images/delete_white.png) left top no-repeat]"
+                    default_x0023_active_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453987610645&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/delete_white.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_default="[border:none,width:25px,height:25px,background:url(/etc/clientlibs/fd/af/images/delete.png) left top no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453987597570&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/delete.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_hover="[background:url(/etc/clientlibs/fd/af/images/delete_hover.png) left top no-repeat]"
+                    default_x0023_hover_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453987634927&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/delete_hover.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_tabsonleft
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[border-top-width:1px,border-left-width:1px,border-bottom-width:1px,border-right-width:1px,border-style:solid,border-color:#08b1cf]"/>
+                <af_tabsonleftcontentarea
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[border-top-width:0px,border-left-width:1px,border-bottom-width:0px,border-right-width:0px,border-style:solid,border-color:#08b1cf,padding-left:10px,padding-bottom:10px,padding-right:10px,padding-top:10px]"
+                    default_x0023_default_x0023_ui="[paddingPopover:10px,borderWidthPopover:0px\, 0px\, 0px\, 1px,borderWidthLock:linkOff]"/>
+                <af_accordionpanelcontentarea
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[padding-left:10px,padding-bottom:10px,padding-right:10px,padding-top:10px]"
+                    default_x0023_default_x0023_ui="[paddingPopover:10px]"/>
+                <af_wizardcontentarea
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[padding-left:10px,padding-bottom:10px,padding-right:10px,padding-top:10px]"
+                    default_x0023_default_x0023_ui="[paddingPopover:10px]"/>
+                <af_tabsontopcontentarea
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[padding-left:10px,padding-bottom:10px,padding-right:10px,padding-top:10px]"
+                    default_x0023_default_x0023_ui="[paddingPopover:10px]"/>
+                <af_tabsonleftnavgrp1
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-bottom:0px,margin-top:0px,margin-left:0px,margin-right:0px,padding-bottom:0px,padding-left:0px,padding-top:0px,padding-right:0px,list-style:none,cursor:pointer,overflow:hidden,background:#f1f1f1]"
+                    default_x0023_default_x0023_ui="[marginPopover:0px,marginLock:link,paddingPopover:0px,paddingLock:link,backgroundColor:#f1f1f1]"/>
+                <af_tabsonleftnavgrp1title
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[color:#ffffff,background:url(/etc/clientlibs/fd/af/images/tick-active.png) left top no-repeat\,#007fa2]"
+                    default_x0023_active_x0023_ui="[backgroundColor:#007fa2,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453995975942&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/tick-active.png&quot;\,&quot;position&quot;:&quot;left top&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_default="[font-size:16px,color:#333333,width:calc(100% - 35px),margin-bottom:2px,margin-top:0px,margin-left:0px,margin-right:0px,display:block,padding-bottom:10px,padding-left:30px,padding-top:10px,padding-right:5px,text-decoration:none,border-top-width:0px,border-left-width:0px,border-bottom-width:2px,border-right-width:0px,border-color:#DDDDDD,border-style:solid,background:url(/etc/clientlibs/fd/af/images/tick.png) left top no-repeat\,#f1f1f1,cssOverride:box-sizing : content-box;&#xa;white-space: normal;]"
+                    default_x0023_default_x0023_ui="[marginPopover:0px\, 0px\, 2px\, 0px,marginLock:linkOff,paddingPopover:10px\, 5px\, 10px\, 30px,paddingLock:linkOff,borderPopover:0px\, 0px\, 2px\, 0px,borderWidthLock:linkOff,backgroundColor:#f1f1f1,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453995934885&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/tick.png&quot;\,&quot;position&quot;:&quot;left top&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"
+                    default_x0023_hover="[color:#ffffff,background:url(/etc/clientlibs/fd/af/images/tick-active.png) left top no-repeat\,#007fa2]"
+                    default_x0023_hover_x0023_ui="[backgroundColor:#007fa2,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453995996340&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/tick-active.png&quot;\,&quot;position&quot;:&quot;left top&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_tabsonleftnavgrp2title
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[background:url(/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-blue.png) 3% 50% no-repeat\,#FFFFFF,border-left-width:0px,border-bottom-width:0px,border-right-width:0px,border-top-width:0px,color:#3d3d3d]"
+                    default_x0023_active_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454335252676&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-blue.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;custom&quot;\,&quot;x-position&quot;:&quot;3%&quot;\,&quot;y-position&quot;:&quot;50%&quot;}]},backgroundColor:#FFFFFF,borderWidthPopover:0px]"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-black.png) 3% 50% no-repeat\,#FFFFFF,color:#3d3d3d]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#FFFFFF,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454335181218&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-black.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;custom&quot;\,&quot;x-position&quot;:&quot;3%&quot;\,&quot;y-position&quot;:&quot;50%&quot;}]}]"
+                    default_x0023_hover="[color:#3d3d3d,background:url(/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-blue.png) 3% 50% no-repeat\,#FFFFFF]"
+                    default_x0023_hover_x0023_ui="[backgroundColor:#FFFFFF,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454339810914&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme/simpleEnrollment/images/arrow-blue.png&quot;\,&quot;position&quot;:&quot;custom&quot;\,&quot;x-position&quot;:&quot;3%&quot;\,&quot;y-position&quot;:&quot;50%&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_tabsontopnavgrp1
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-bottom:10px,background:#f1f1f1,cssOverride:list-style: none;,overflow:hidden,margin-top:12px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,backgroundColor:#f1f1f1,marginPopover:12px\, —\, 10px\, —]"/>
+                <af_tabsontopnavgrp1title
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[background:#007fa2,color:#FFFFFF]"
+                    default_x0023_active_x0023_ui="[backgroundColor:#007fa2]"
+                    default_x0023_default="[background:#f1f1f1,color:#3d3d3d]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#f1f1f1]"
+                    default_x0023_hover="[color:#FFFFFF,background:#007fa2]"
+                    default_x0023_hover_x0023_ui="[backgroundColor:#007fa2]"
+                    default_x0023_stepped="[color:#3d3d3d,background:#f1f1f1]"
+                    default_x0023_stepped_x0023_ui="[backgroundColor:#f1f1f1]"/>
+                <af_wizardnavgrp
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-bottom:10px,margin-top:0px,margin-left:0px,margin-right:0px,padding-bottom:0px,padding-left:0px,padding-top:0px,padding-right:0px,list-style-type:none,font-size:16px,overflow:hidden,white-space:nowrap,cursor:default,text-transform:uppercase,counter-reset:item]"
+                    default_x0023_default_x0023_ui="[marginPopover:0px\, 0px\, 10px\, 0px,marginLock:linkOff,paddingPopover:0px,paddingLock:link]"/>
+                <af_wizardnavitemtitle
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[beforePseudoElement:background-color: #0079c1;,color:#0079c1]"
+                    default_x0023_default="[display:inline-block,border-top-width:0px,border-left-width:0px,border-bottom-width:0px,border-right-width:0px,border-style:solid,border-color:#000000,position:relative,cssOverride:text-decoration: none;&#xa;word-break: break-word;&#xa;white-space: normal;,counter-increment:item,border-top-right-radius:200px,border-bottom-right-radius:200px,border-bottom-left-radius:0px,border-top-left-radius:0px,margin-right:10px,color:#666666,margin-top:20px,beforePseudoElement:content: counter(item);&#xa;float: left;&#xa;bottom: 0px;&#xa;border-width: 0px;&#xa;margin-right: 10px;&#xa;border-radius: 5px;&#xa;padding: 3px 8px;&#xa;color: #ffffff;&#xa;font-size: 16px;&#xa;background-color: #666666;]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,borderRadiusLock:linkOff,borderWidthPopover:0px,borderWidthLock:link,borderRadiusPopover:0px\, 200px\, 0px\, 200px,marginPopover:20px\, 10px\, —\, —]"
+                    default_x0023_hover="[cssOverride:text-decoration: none;]"
+                    default_x0023_stepped="[beforePseudoElement:background-color: #02874e;,color:#02874e]"
+                    phone_x0023_default="[margin-right:40px]"
+                    phone_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, 40px\, —\, —]"/>
+                <af_wizardnavitemprogressindicator
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[cssOverride:border-bottom-color : #0079c1;,display:block]"
+                    default_x0023_default="[width:0px,height:0px,border-style:solid,border-bottom-right-radius:0px,border-bottom-left-radius:0px,border-top-right-radius:0px,border-top-left-radius:0px,margin-top:-39px,z-index:20,cssOverride:border-bottom-color : #999999;,border-left-width:8px,border-bottom-width:8px,border-right-width:8px,border-top-width:8px,border-color:rgba(255\,255\,255\,0),display:none,margin-left:6px]"
+                    default_x0023_default_x0023_ui="[borderWidthLock:link,borderRadiusPopover:0px,marginLock:linkOff,borderWidthPopover:8px,marginPopover:-39px\, —\, —\, 6px]"
+                    default_x0023_stepped="[cssOverride:border-bottom-color : #02874e;,display:none]"/>
+                <af_wizardnavitemprogressbar
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_active="[background:#0079c1]"
+                    default_x0023_active_x0023_ui="[backgroundColor:#0079c1]"
+                    default_x0023_default="[height:3px,margin-right:3px,border-bottom-left-radius:0px,border-top-right-radius:0px,border-top-left-radius:0px,border-bottom-right-radius:0px,background:#999999,margin-top:9px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,borderRadiusPopover:0px,backgroundColor:#999999,marginPopover:9px\, 3px\, —\, —]"
+                    default_x0023_stepped="[background:#02874e]"
+                    default_x0023_stepped_x0023_ui="[backgroundColor:#02874e]"/>
+                <af_wizardpanelnextscroll
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:200px,cursor:pointer,cssOverride:cursor : pointer;,background:url(/etc/clientlibs/fd/af/images/next-page.png) center bottom no-repeat,display:none]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453922521891&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/next-page.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center bottom&quot;}]}]"
+                    phone_x0023_default="[display:none]"/>
+                <af_wizardpanelprevscroll
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:200px,cursor:pointer,cssOverride:cursor : pointer;,background:url(/etc/clientlibs/fd/af/images/previous-page.png) center bottom no-repeat,display:none]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453922631541&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/previous-page.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center bottom&quot;}]}]"
+                    phone_x0023_default="[display:none]"/>
+                <af_wizardtoolbarnextscroll
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[cursor:pointer,margin-top:10px,height:44px,background:url(/etc/clientlibs/fd/af/images/next.png) right bottom no-repeat]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:10px\, —\, —\, —,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453996082700&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/next.png&quot;\,&quot;position&quot;:&quot;right bottom&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_wizardtoolbarprevscroll
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[cursor:pointer,margin-top:10px,height:44px,background:url(/etc/clientlibs/fd/af/images/previous.png) left bottom no-repeat]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:10px\, —\, —\, —,backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453996111341&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/previous.png&quot;\,&quot;position&quot;:&quot;left bottom&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_tableaddbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/guidetheme2/images/plus.svg) center center / cover no-repeat,width:25px,height:25px,cssOverride:cursor : pointer;&#xa;,margin-top:5px,display:inline-block]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454172256767&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/plus.svg&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]},marginLock:linkOff,marginPopover:5px\, —\, —\, —]"/>
+                <af_tableeditbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[display:inline-block,width:20px,height:24px,cssOverride:cursor : pointer;&#xa;,background:url(/etc/clientlibs/fd/af/images/table-edit.png) left top / cover no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454174080458&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/table-edit.png&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_tableremovebutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/guidetheme2/images/minus.svg) center center / cover no-repeat,width:25px,height:25px,cssOverride:cursor : pointer;&#xa;,margin-top:5px,display:inline-block]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1454172256769&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/guidetheme2/images/minus.svg&quot;\,&quot;size&quot;:&quot;cover&quot;\,&quot;position&quot;:&quot;center center&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]},marginLock:linkOff,marginPopover:5px\, —\, —\, —]"/>
+                <af_tableheadercell
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:#666666,font-weight:bold,padding-right:.625rem,padding-left:.625rem,border-style:hidden,height:3.875rem,color:rgb(255\,255\,255),text-align:left]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#666666,paddingLock:linkOff,paddingPopover:—\, .625rem\, —\, .625rem]"/>
+                <af_tableheaderrow
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:#333333]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#333333]"/>
+                <af_tablecell
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[text-align:left]"/>
+                <af_tableoddrow
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:#ffffff]"
+                    default_x0023_default_x0023_ui="[backgroundColor:#ffffff]"/>
+                <af_tableevenrow
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[border-style:hidden,background:#eeeeee]"
+                    default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:Set,backgroundColor:#eeeeee]"/>
+                <af_toolbar
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-top:25px,margin-bottom:25px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:25px]"
+                    phone_x0023_default="[background:#013853,position:fixed,bottom:0px,width:100%,margin-top:0px,margin-bottom:0px]"
+                    phone_x0023_default_x0023_ui="[backgroundColor:#013853,positionPopover:fixed,marginLock:linkOff,marginPopover:0px\, —\, 0px\, —]"/>
+                <af_attachmentlistingbuttonicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/images/fileattachmentlisting-ip.png) center top / contain no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453091947182&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/fileattachmentlisting-ip.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center top&quot;\,&quot;size&quot;:&quot;contain&quot;}]}]"/>
+                <af_button
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-bottom:0px,margin-top:0px,margin-left:0px,margin-right:0px,border-style:outset,border-top-width:0px,border-left-width:0px,border-bottom-width:0px,border-right-width:0px,color:#ffffff,padding-bottom:10px,padding-left:15px,padding-top:10px,padding-right:15px,border-color:#285e8e,font-size:14px,border-bottom-left-radius:4px,border-bottom-right-radius:4px,border-top-right-radius:4px,border-top-left-radius:4px,line-height:normal,background:#00283c]"
+                    default_x0023_default_x0023_ui="[marginPopover:0px,marginLock:link,paddingPopover:10px\, 15px\, 10px\, 15px,paddingLock:linkOff,borderWidthPopover:0px,borderWidthLock:link,borderRadiusPopover:4px,borderRadiusLock:link,backgroundColor:#00283c]"
+                    default_x0023_hover="[background:#013853]"
+                    default_x0023_hover_x0023_ui="[backgroundColor:#013853]"
+                    phone_x0023_default="[background:#013853]"
+                    phone_x0023_default_x0023_ui="[backgroundColor:#013853]"/>
+                <af_buttonicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:25px,width:25px,display:none]"/>
+                <af_nextitemnavbuttonicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/images/moveNext-ip.png) center top / contain no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453091983041&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/moveNext-ip.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center top&quot;\,&quot;size&quot;:&quot;contain&quot;}]}]"/>
+                <af_previtemnavbuttonicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/images/movePrev-ip.png) center top / contain no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453092015635&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/movePrev-ip.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center top&quot;\,&quot;size&quot;:&quot;contain&quot;}]}]"/>
+                <af_resetbuttonicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/images/reset-ip.png) center top / contain no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453091910636&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/reset-ip.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center top&quot;\,&quot;size&quot;:&quot;contain&quot;}]}]"/>
+                <af_savebuttonicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/images/save-ip.png) center top / contain no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453091365611&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/save-ip.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center top&quot;\,&quot;size&quot;:&quot;contain&quot;}]}]"/>
+                <af_submitbuttonicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:url(/etc/clientlibs/fd/af/images/submit-ip.png) center top / contain no-repeat]"
+                    default_x0023_default_x0023_ui="[backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1453091490352&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/images/submit-ip.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center top&quot;\,&quot;size&quot;:&quot;contain&quot;}]}]"/>
+                <af_toolbarbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[addonCss:{&quot;selectors&quot;:{&quot;parent&quot;:{&quot;cssSelector&quot;:&quot;.afToolbarButton&quot;\,&quot;properties&quot;:{&quot;display&quot;:&quot;inline-block&quot;}}}}]"
+                    default_x0023_default_x0023_ui="[display:inline-block]"/>
+                <af_toolbarbuttontext
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[display:none]"/>
+                <af_toolbarbuttonicon
+                    jcr:primaryType="nt:unstructured"
+                    phone_x0023_default="[display:block]"/>
+                <af_tooltip
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[background:rgba(0\,0\,0\,0.8),max-width:350px,padding-left:8px,padding-bottom:3px,padding-right:8px,padding-top:3px,color:#FFFFFF,text-align:center,cssOverride:text-decoration: none;&#xa;white-space: normal;&#xa;word-break: break-word;&#xa;word-wrap: break-word;,border-bottom-right-radius:4px,border-bottom-left-radius:4px,border-top-right-radius:4px,border-top-left-radius:4px,width:auto,addonCss:{&quot;selectors&quot;:{&quot;tip&quot;:{&quot;cssSelector&quot;:&quot;.guideContainerWrapperNode .tooltip.bottom .tooltip-arrow&quot;\,&quot;properties&quot;:{&quot;border-bottom-color&quot;:&quot;rgba(0\,0\,0\,0.8)&quot;}}}}]"
+                    default_x0023_default_x0023_ui="[backgroundColor:rgba(0\,0\,0\,0.8),paddingPopover:3px\, 8px\, 3px\, 8px,paddingLock:linkOff,borderRadiusPopover:4px]"/>
+                <af_fielderrormessage
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[padding-left:5px,padding-top:5px,color:#cccccc,margin-left:30%,width:60%]"
+                    default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:5px\, —\, —\, 5px,marginLock:linkOff,marginPopover:—\, —\, —\, 30%]"
+                    phone_x0023_default="[width:100%,margin-left:0px]"
+                    phone_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, —\, —\, 0px]"/>
+                <af_datewidgetlabel
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[padding-right:5px]"
+                    default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, 5px\, —\, —]"/>
+                <af_imagechoicewidget
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_checked="[background:url(/etc/clientlibs/fd/af/widgets/imagebuttons/assets/ImageChoiceSelectIcon.svg) center center no-repeat\,rgba(23\,107\,230\,0.5)]"
+                    default_x0023_checked_x0023_ui="[backgroundColor:rgba(23\,107\,230\,0.5),backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1456750106392&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/af/widgets/imagebuttons/assets/ImageChoiceSelectIcon.svg&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;\,&quot;position&quot;:&quot;center center&quot;}]}]"/>
+                <af_scribblewidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_empty="[background:url(/etc/clientlibs/fd/xfaforms/xfalib/images/signature.png) left top no-repeat]"
+                    default_x0023_empty_x0023_ui="[shadowContainer:{&quot;itemList&quot;:[]},backgroundContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;image.1456987307286&quot;\,&quot;imageSrc&quot;:&quot;/etc/clientlibs/fd/xfaforms/xfalib/images/signature.png&quot;\,&quot;tiling&quot;:&quot;no-repeat&quot;}]}]"/>
+                <af_separator
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-top:0.5rem,margin-bottom:0.5rem,opacity:0.5,border-style:solid,border-color:#CCCCCC]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:0.5rem\, —\, 0.5rem\, —]"/>
+                <af_fielddescriptionshort
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[margin-left:30%,width:60%]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, —\, —\, 30%]"
+                    phone_x0023_default="[margin-left:0px,width:100%]"
+                    phone_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, —\, —\, 0px]"/>
+                <af_imagechoicewidgetandtext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[display:inline-block,width:60%]"/>
+                <af_tnccheckboxlabel
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[padding-left:10px]"
+                    default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 10px]"/>
+                <af_fieldhelpicon
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[position:relative,left:10px,margin-top:0px,margin-left:0px,margin-bottom:0px,margin-right:0px,top:0px]"
+                    default_x0023_default_x0023_ui="[positionPopover:relative,marginLock:link,marginPopover:0px]"
+                    phone_x0023_default="[position:absolute,top:8px,right:8px,left:initial]"
+                    phone_x0023_default_x0023_ui="[positionPopover:absolute]"/>
+                <af_nextitemnavbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[border-bottom-right-radius:0px,border-bottom-left-radius:0px,border-top-right-radius:0px,border-top-left-radius:0px,position:relative,padding-left:15px,padding-bottom:13px,padding-right:15px,padding-top:13px,afterPseudoElement:left: 100%;&#xa;top: 50%;&#xa;border: solid transparent;&#xa;content: &quot; &quot;;&#xa;height: 0;&#xa;width: 0;&#xa;position: absolute;&#xa;pointer-events: none;&#xa;border-left-color: #335075;&#xa;border-width: 21px;&#xa;margin-top: -21px;,background:#335075]"
+                    default_x0023_default_x0023_ui="[borderRadiusPopover:0px,positionPopover:relative,paddingPopover:13px\, 15px\, 13px\, 15px,paddingLock:linkOff,backgroundColor:#335075]"
+                    default_x0023_hover="[background:#335075,afterPseudoElement:border-left-color: #335075;]"
+                    default_x0023_hover_x0023_ui="[backgroundColor:#335075]"/>
+                <af_nextitemnavbuttontext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[text-transform:uppercase]"/>
+                <af_previtemnavbutton
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[border-bottom-right-radius:0px,border-bottom-left-radius:0px,border-top-right-radius:0px,border-top-left-radius:0px,position:relative,padding-left:15px,padding-bottom:13px,padding-right:15px,padding-top:13px,afterPseudoElement:right: 100%;&#xa;top: 50%;&#xa;border: solid transparent;&#xa;content: &quot; &quot;;&#xa;height: 0;&#xa;width: 0;&#xa;position: absolute;&#xa;border-right-color: #335075;&#xa;border-width: 21px;&#xa;margin-top: -21px;,background:#335075]"
+                    default_x0023_default_x0023_ui="[borderRadiusPopover:0px,positionPopover:relative,paddingPopover:13px\, 15px\, 13px\, 15px,paddingLock:linkOff,backgroundColor:#335075]"
+                    default_x0023_hover="[background:#335075,afterPseudoElement:border-right-color: #335075;]"
+                    default_x0023_hover_x0023_ui="[backgroundColor:#335075]"/>
+                <af_previtemnavbuttontext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[text-transform:uppercase]"/>
+                <af_summary
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[text-align:center,max-width:100%,position:relative,height:500px,border-top-width:1px,border-right-width:1px,border-left-width:1px,border-bottom-width:1px,border-style:solid,overflow:auto]"
+                    default_x0023_default_x0023_ui="[positionPopover:relative,borderWidthPopover:1px]"/>
+                <af_verify
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[text-align:center,max-width:100%,position:relative,height:500px,border-right-width:1px,border-bottom-width:1px,border-left-width:1px,border-top-width:1px,border-style:solid,overflow:auto]"
+                    default_x0023_default_x0023_ui="[positionPopover:relative,borderWidthPopover:1px]"/>
+                <af_esign
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[text-align:center,position:relative,height:500px,border-right-width:1px,border-bottom-width:1px,border-left-width:1px,border-top-width:1px,border-style:solid,overflow:auto,max-width:100%]"
+                    default_x0023_default_x0023_ui="[positionPopover:relative,borderWidthPopover:1px]"/>
+            </af_guideContainer>
+            <af_guideFooter
+                jcr:primaryType="nt:unstructured"
+                component="fd/af/components/guidefooter">
+                <af_footer
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[width:100%,color:#FFFFFF,text-align:center,padding-top:10px,padding-right:0px,padding-bottom:15px,padding-left:0px,background:#484848,margin-top:60px,height:40px,cssOverride:box-sizing : content-box;&#xa;]"
+                    default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:10px\, 0px\, 15px\, 0px,marginLock:linkOff,backgroundColor:#484848,marginPopover:60px\, —\, —\, —]"
+                    phone_x0023_default="[margin-bottom:40px]"
+                    phone_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:—\, —\, 40px\, —]"/>
+            </af_guideFooter>
+            <af_guideHeader
+                jcr:primaryType="nt:unstructured"
+                component="fd/af/components/guideheader">
+                <af_header
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[color:#FFFFFF,top:0px,right:0px,left:0px,border-left-width:1px,border-bottom-width:1px,border-right-width:1px,border-top-width:1px,border-style:solid,background:#0079C1,height:90px]"
+                    default_x0023_default_x0023_ui="[borderWidthPopover:1px,backgroundColor:#0079C1]"
+                    phone_x0023_default="[margin-bottom:20px,height:auto]"/>
+                <af_headerlogo
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[height:60px,margin-top:15px]"
+                    default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:15px\, —\, —\, —]"/>
+                <af_headertext
+                    jcr:primaryType="nt:unstructured"
+                    default_x0023_default="[font-size:28px,padding-left:10px,height:90px]"
+                    default_x0023_default_x0023_ui="[paddingPopover:—\, —\, —\, 10px]"/>
+            </af_guideHeader>
+        </components>
+        <assetLibrary jcr:primaryType="nt:unstructured"/>
+        <rawCss/>
+    </jcr:content>
+</jcr:root>

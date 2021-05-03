@@ -64,7 +64,10 @@ public class CustomListItemModel implements ListItem, Serializable {
 	
 	 @Override
 	 public String getURL() {
-	        return url;
+		 if( !url.startsWith("http") && !url.endsWith(".html")) {
+			 return url +".html";
+         }
+	     return url;
 	 }
 	 
 	 @Override

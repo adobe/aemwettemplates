@@ -8,6 +8,7 @@
         cq:template="/conf/uxp/settings/wcm/templates/basic-adaptive-form-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="adobeuxp/af/components/page2/aftemplatedpage"
+        cssFileRef="/etc/clientlibs/fd/themes/themeLibrary/wetcompliance/css/theme.css"
         guideComponentType="fd/af/templates">
         <guideContainer
             fd:version="1.1"
@@ -19,7 +20,7 @@
             guideCss="guideContainer"
             guideNodeClass="guideContainerNode"
             name="guide1"
-            themeRef="/content/dam/formsanddocuments-themes/reference-themes/canvas-3-0"
+            themeRef=""
             useExistingAF="false">
             <layout
                 jcr:primaryType="nt:unstructured"

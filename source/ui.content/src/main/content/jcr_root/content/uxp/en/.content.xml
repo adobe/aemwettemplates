@@ -6,7 +6,7 @@
     <jobs/>
     <travel-and-tourism/>
     <jcr:content
-        cq:lastModified="{Date}2021-03-01T11:28:44.567-05:00"
+        cq:lastModified="{Date}2021-05-01T15:22:05.695-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/uxp/settings/wcm/templates/home-page-template"
         jcr:description="Get quick, easy access to all Government of Canada services and information."
@@ -76,7 +76,7 @@
                             sling:resourceType="adobeuxp/components/content/title"
                             type="h2"/>
                         <gclist
-                            cq:styleIds="[1612278568988]"
+                            cq:styleIds="[1611343020032,1612924125720]"
                             jcr:created="{Date}2020-11-26T15:54:47.363-05:00"
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-12-08T15:31:49.874-05:00"
@@ -148,12 +148,12 @@
                             <title
                                 jcr:created="{Date}2020-11-18T15:37:39.908-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-11-19T14:19:01.940-05:00"
+                                jcr:lastModified="{Date}2021-05-01T12:51:34.876-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Jobs"
                                 sling:resourceType="adobeuxp/components/content/title"
-                                linkURL="/content/uxp/home2"
+                                linkURL="/content/uxp/en/jobs"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-11-18T15:37:43.495-05:00"
@@ -187,12 +187,12 @@
                             <title
                                 jcr:created="{Date}2020-11-18T15:37:39.908-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-11-26T20:21:39.304-05:00"
+                                jcr:lastModified="{Date}2021-05-01T12:51:59.381-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Immigration and citizenship"
                                 sling:resourceType="adobeuxp/components/content/title"
-                                linkURL="http://google.com"
+                                linkURL="/content/uxp/en/immigration-and-citizenship"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-11-18T15:37:43.495-05:00"
@@ -233,11 +233,12 @@
                             <title
                                 jcr:created="{Date}2020-11-18T15:37:39.908-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-11-26T20:21:50.362-05:00"
+                                jcr:lastModified="{Date}2021-05-01T15:22:05.676-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Travel and tourism"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="/content/uxp/en/travel-and-tourism"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-11-18T15:37:43.495-05:00"
@@ -271,11 +272,12 @@
                             <title
                                 jcr:created="{Date}2020-11-18T15:37:39.908-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-11-26T20:22:03.676-05:00"
+                                jcr:lastModified="{Date}2021-05-01T12:55:24.915-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Business and industry"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/business.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-11-18T15:37:43.495-05:00"
@@ -309,11 +311,12 @@
                             <title
                                 jcr:created="{Date}2020-11-18T15:37:39.908-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-11-26T20:22:14.224-05:00"
+                                jcr:lastModified="{Date}2021-05-01T12:56:23.429-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Benefits"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/benefits.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-11-18T15:37:43.495-05:00"
@@ -347,11 +350,12 @@
                             <title
                                 jcr:created="{Date}2020-11-18T15:37:39.908-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-11-26T20:22:24.668-05:00"
+                                jcr:lastModified="{Date}2021-05-01T12:57:03.613-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Health"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/health.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-11-18T15:37:43.495-05:00"
@@ -390,6 +394,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Taxes"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/taxes.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -428,6 +433,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Environment and natural resources"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/environment.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -466,6 +472,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="National security and defence"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/defence.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -504,6 +511,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Culture, history and sport"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/culture.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -542,6 +550,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Policing, justice and emergencies"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/policing.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -580,6 +589,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Transport and infrastructure"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/transport.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -638,6 +648,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Indigenous peoples"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/indigenous-peoples.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -673,6 +684,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Veterans"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/veterans.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -708,6 +720,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Youth"
                                 sling:resourceType="adobeuxp/components/content/title"
+                                linkURL="https://www.canada.ca/en/services/youth.html"
                                 type="h3"/>
                             <text
                                 jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -773,11 +786,12 @@
                                 <title
                                     jcr:created="{Date}2020-12-03T14:41:34.163-05:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2020-12-03T15:19:27.889-05:00"
+                                    jcr:lastModified="{Date}2021-05-01T13:24:27.728-04:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Contct Us"
+                                    jcr:title="Contact Us"
                                     sling:resourceType="adobeuxp/components/content/title"
+                                    linkURL="https://www.canada.ca/en/contact.html"
                                     type="h3"/>
                                 <text
                                     jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -808,11 +822,12 @@
                                 <title
                                     jcr:created="{Date}2020-12-03T14:41:34.163-05:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2020-12-03T15:19:44.888-05:00"
+                                    jcr:lastModified="{Date}2021-05-01T13:24:44.856-04:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Departments and agencies"
                                     sling:resourceType="adobeuxp/components/content/title"
+                                    linkURL="https://www.canada.ca/en/government/dept.html"
                                     type="h3"/>
                                 <text
                                     jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -843,11 +858,12 @@
                                 <title
                                     jcr:created="{Date}2020-12-03T14:41:34.163-05:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2020-12-03T15:20:09.874-05:00"
+                                    jcr:lastModified="{Date}2021-05-01T13:25:04.950-04:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="About government"
                                     sling:resourceType="adobeuxp/components/content/title"
+                                    linkURL="https://www.canada.ca/en/government/system.html"
                                     type="h3"/>
                                 <text
                                     jcr:created="{Date}2020-12-03T14:41:58.637-05:00"
@@ -878,11 +894,12 @@
                                 <title
                                     jcr:created="{Date}2020-12-03T14:41:34.163-05:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2020-12-03T15:20:35.884-05:00"
+                                    jcr:lastModified="{Date}2021-05-01T13:25:26.154-04:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Open government"
                                     sling:resourceType="adobeuxp/components/content/title"
+                                    linkURL="https://open.canada.ca/en"
                                     type="h3"/>
                                 <text
                                     jcr:created="{Date}2020-12-03T14:41:58.637-05:00"

@@ -1,0 +1,24 @@
+.afCaptionErrorOnTop .guideCheckBoxGroupItems,
+.afCaptionErrorOnTop .guideRadioButtonGroupItems,
+.afCaptionErrorOnTop .guideFieldLabel,
+.afCaptionErrorOnTop .guideFieldWidget {
+	width: auto;
+	display: block;
+}
+.afCaptionErrorOnTop label {
+	text-align: left;
+}
+.afCaptionErrorOnTop .guideFieldWidget.left {
+	float: left;
+}
+.afCaptionErrorOnTop .guideFieldDescription.long,
+.afCaptionErrorOnTop .guideFieldDescription.short,
+.afCaptionErrorOnTop .guideFieldError {
+	margin-left: 0px;
+	width: auto;
+}
+.guideFieldNode.afCaptionErrorOnTop .guideHelpQuestionMark {
+	position: absolute;
+	top: 5px;
+	left: initial;
+}
