@@ -68,7 +68,7 @@ The main parts of the application are:
 ## Package download
 A zip version of the packages are available to download from https://github.com/adobe/aemwettemplates/releases.
 
-They can be installed using AEM Package Manager. For more information on AEM Packagem Manager refer to https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#contentmanagement.
+They can be installed using AEM Package Manager. For more information on AEM Package Manager refer to https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#contentmanagement.
 
 
 ## How to build
