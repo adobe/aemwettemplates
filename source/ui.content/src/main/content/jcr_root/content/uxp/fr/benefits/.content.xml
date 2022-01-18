@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-02-18T17:00:31.539Z"
-        cq:lastModifiedBy="translation-job-service"
+        cq:lastModified="{Date}2021-11-15T09:52:02.765-05:00"
+        cq:lastModifiedBy="admin"
         cq:lastTranslationDone="{Date}2021-02-18T17:00:31.539Z"
         cq:lastTranslationUpdate="{Date}2021-02-18T17:00:06.529Z"
         cq:template="/conf/uxp/settings/wcm/templates/topic-template"
@@ -13,11 +13,13 @@
         cq:translationProviderName="microsoft"
         cq:translationSourcePath="/content/uxp/en/benefits"
         cq:translationStatus="COMPLETE"
+		jcr:language="fr"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Avantages"
         jcr:uuid="6e177d1c-2ef0-4a16-96cf-f2759ae08876"
+        sling:alias="avantages"
         sling:resourceType="adobeuxp/components/structure/page"
         navTitle="Avantages"
         pageTitle="Avantages">

@@ -12,12 +12,11 @@ governing permissions and limitations under the License.
 package com.adobe.acs.adobeuxp.wcm.core.components.models.impl;
 
 import java.util.Collection;
+
 import java.util.Objects;
 import java.util.stream.Collectors;
-
 import javax.inject.Inject;
 import javax.inject.Named;
-
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
@@ -31,15 +30,17 @@ import org.apache.sling.models.annotations.via.ResourceSuperType;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.adobe.acs.adobeuxp.wcm.core.components.models.CustomListItemModel;
+import com.adobe.acs.adobeuxp.wcm.core.components.models.CustomListItem;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import com.adobe.cq.wcm.core.components.models.List;
 import com.adobe.cq.wcm.core.components.models.ListItem;
+import com.adobe.cq.wcm.core.components.util.AbstractComponentImpl;
 import com.day.cq.wcm.api.designer.Style;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.experimental.Delegate;
+
 
 @Model(
         adaptables = {Resource.class, SlingHttpServletRequest.class},
@@ -49,7 +50,7 @@ import lombok.experimental.Delegate;
 )
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
 
-public class GCListImpl implements List {
+public class GCListImpl extends AbstractComponentImpl implements List {
 	/**
      * Standard logger.
      */
@@ -82,7 +83,7 @@ public class GCListImpl implements List {
     @Inject
     @Named("customListItems")
 	@Via("resource")
-    private java.util.List<CustomListItemModel> customListItems;
+    private java.util.List<CustomListItem> customListItems;
     
 	/**
      * Result list.

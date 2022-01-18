@@ -21,7 +21,7 @@
     <groupId>com.adobe.acs</groupId>
     <artifactId>adobeuxp</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.2.0-SNAPSHOT</version>
     <description>Adobe UPX Project</description>
 
     <modules>
@@ -41,7 +41,7 @@
         <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
-        <core.wcm.components.version>2.14.0</core.wcm.components.version>
+        <core.wcm.components.version>2.17.10</core.wcm.components.version>
 		<bnd.version>5.0.0</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

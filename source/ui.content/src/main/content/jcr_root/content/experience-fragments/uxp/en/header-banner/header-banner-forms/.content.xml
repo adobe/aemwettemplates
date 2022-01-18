@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-04-01T18:41:17.799Z"
+        cq:lastModified="{Date}2022-01-14T13:25:26.422Z"
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2021-04-01T18:40:53.135Z"
         cq:lastRolledoutBy="admin"
@@ -50,11 +50,13 @@
                     container="container"
                     id="wb-lng"
                     layout="responsiveGrid">
-                    <languagenavigation
-                        cq:isCancelledForChildren="{Boolean}true"
-                        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
+                    <languagenavigationForms
+                        jcr:lastModified="{Date}2022-01-14T13:25:26.353Z"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/msm/components/ghost"/>
+                        sling:resourceType="adobeuxp/components/content/languagenavigationForms"
+                        actionURL="http://0.0.0.0:54002"
+                        label="Français"/>
                 </wcontainer>
                 <wcontainer_1105595248
                     cq:lastRolledout="{Date}2021-04-01T18:40:53.039Z"
@@ -83,7 +85,7 @@
                         displayPopupTitle="false"
                         fileReference="/content/dam/uxp/sig-blk-en.png"
                         isDecorative="false"
-                        linkURL="https://www.canada.ca/en.html"
+                        linkURL="/content/uxp/en"
                         titleValueFromDAM="false"/>
                     <cq:responsive
                         cq:lastRolledout="{Date}2021-04-01T18:40:53.074Z"
@@ -144,7 +146,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="adobeuxp/components/content/quickSearch"
                         actionURL="/en/sr/srb.html"
-                        label="Search Canada.ca">
+                        label="Search">
                         <cq:responsive
                             cq:lastRolledout="{Date}2021-04-01T18:40:53.109Z"
                             cq:lastRolledoutBy="admin"

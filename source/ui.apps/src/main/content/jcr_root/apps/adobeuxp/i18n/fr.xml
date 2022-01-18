@@ -41,6 +41,9 @@
     <Generic_x0020_Service_x0020_Page_x0020_Template
         jcr:primaryType="sling:MessageEntry"
         sling:message="Modèle de page de service générique"/>
+    <Government_x0020_of_x0020_Canada_x0020_Form_x0020_Template
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Modèle de formulaire du gouvernement du Canada"/>
     <Header
         jcr:primaryType="sling:MessageEntry"
         sling:message="En-tête"/>

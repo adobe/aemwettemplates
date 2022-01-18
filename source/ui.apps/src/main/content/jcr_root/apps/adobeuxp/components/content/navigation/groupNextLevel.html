@@ -13,11 +13,14 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
-  <template data-sly-template.groupNextLevel="${@ items='The navigation items for the current level',currentItem='toto'}" data-sly-use.itemTemplate="itemNextLevel.html">
+  <template data-sly-template.groupNextLevel="${@ items,currentItem}" data-sly-use.itemTemplate="itemNextLevel.html">
 
-    <ul id="gc-mnu-jobs"  role="menu" aria-orientation="vertical" class="cmp-navigation__group" data-sly-list="${items}">
+    <ul id="gc-mnu-jobs"  role="menu" aria-orientation="vertical" class="cmp-navigation__group" >
     	<li role="presentation"> <a role="menuitem" tabindex="-1" href="${currentItem.URL}">${currentItem.title}<span class="visible-xs-inline visible-sm-inline">: home</span></a> </li>
         <li role="separator"></li>
-        <sly data-sly-call="${itemTemplate.item @ item=item}"></sly>
+		<sly data-sly-list="${items}">
+        	<sly data-sly-call="${itemTemplate.item @ item=item}"></sly>
+        </sly>
+        <li role="separator" aria-orientation="vertical"></li>
     </ul>
 </template>

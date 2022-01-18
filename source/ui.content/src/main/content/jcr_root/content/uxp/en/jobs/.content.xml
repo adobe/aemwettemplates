@@ -52,7 +52,7 @@
                                 jcr:lastModified="{Date}2021-02-11T14:59:04.970-05:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="\[Topic title]"
+                                jcr:title="Jobs"
                                 sling:resourceType="adobeuxp/components/content/title"/>
                             <text
                                 jcr:created="{Date}2021-02-09T20:16:18.266-05:00"

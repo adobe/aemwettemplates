@@ -14,19 +14,14 @@
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
 <template data-sly-template.itemContent="${@ item='The language navigation item'}">
-    <span data-sly-test.hasChildren="${item.children.size > 0}"
+	<sly data-sly-use.langlabel="com.adobe.acs.adobeuxp.wcm.core.components.models.LanguageNavigationLabel"></sly>
+	<span data-sly-test.hasChildren="${item.children.size > 0}"
           class="cmp-languagenavigation__item-title" lang="${item.language}">${item.title}</span>
     <a data-sly-test="${!hasChildren}"
        data-cmp-clickable="${item.data ? true : false}"
        class="cmp-languagenavigation__item-link" href="${item.URL}"
-       hreflang="${item.language}" lang="${item.language}" rel="alternate" title="${item.title}">
-		<span class="hidden-xs">${item.title}</span>
-        <abbr title="${item.title}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">${item.language}</abbr>
+       hreflang="${item.language}" lang="${item.language}" rel="alternate" title="${langlabel.subtitle}">
+		<span class="hidden-xs">${langlabel.subtitle}</span>
+        <abbr title="${langlabel.subtitle}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">${langlabel.subtitle}</abbr>
     </a>
-
-
-
-                        
-
-
 </template>

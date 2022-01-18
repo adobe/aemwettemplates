@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-02-20T18:45:37.829-05:00"
+        cq:lastModified="{Date}2021-09-30T18:27:57.222Z"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-02-20T20:02:06.670-05:00"
         cq:lastReplicatedBy="admin"
@@ -13,22 +13,30 @@
         jcr:language="en"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="basic test form"
+        jcr:title="Basic Test Form"
         jcr:uuid="7a8d9100-3419-4037-9cc2-73ee890c7029"
         sling:resourceType="adobeuxp/af/components/page2/aftemplatedpage">
         <guideContainer
             cq:conf="/conf/global"
             fd:version="1.1"
+            jcr:lastModified="{Date}2021-09-30T18:27:57.191Z"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="fd/af/components/guideContainer"
             actionType="fd/fp/components/actions/portalsubmit"
             autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            cssFileRef="/etc/clientlibs/fd/themes/themeLibrary/wetcompliance/css/theme.css"
             disableSwipeGesture="{Boolean}false"
             dorType="none"
+            enableFocusOnFirstField="{Boolean}true"
+            enableLayoutLayer="false"
             guideCss="guideContainer"
             guideNodeClass="guideContainerNode"
             name="guide1"
-            themeRef="/content/dam/formsanddocuments-themes/reference-themes/canvas-3-0"
+            textIsRich="true"
+			themeRef="/content/dam/formsanddocuments-themes/themeLibrary/wetcompliance"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
             useExistingAF="false">
             <layout
                 jcr:primaryType="nt:unstructured"
@@ -782,6 +790,13 @@
                 workflowType="SEQUENTIAL">
                 <signer0
                     jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="undefined"
+                    email="undefined"
+                    emailSource="undefined"
+                    phone="undefined"
+                    phoneSource="undefined"
+                    securityOption="undefined"
                     signerTitle="Signer One"/>
             </signerInfo>
             <assets jcr:primaryType="nt:unstructured">

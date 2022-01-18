@@ -3,12 +3,11 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-02-17T23:13:17.168-05:00"
+        cq:lastModified="{Date}2021-08-20T19:48:00.656Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/uxp/settings/wcm/templates/basic-adaptive-form-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="adobeuxp/af/components/page2/aftemplatedpage"
-        cssFileRef="/etc/clientlibs/fd/themes/themeLibrary/wetcompliance/css/theme.css"
         guideComponentType="fd/af/templates">
         <guideContainer
             fd:version="1.1"
@@ -16,11 +15,12 @@
             sling:resourceType="fd/af/components/guideContainer"
             actionType="fd/fp/components/actions/portalsubmit"
             autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+			cssFileRef="/etc/clientlibs/fd/themes/themeLibrary/wetcompliance/css/theme.css"
             disableSwipeGesture="{Boolean}false"
             guideCss="guideContainer"
             guideNodeClass="guideContainerNode"
             name="guide1"
-            themeRef=""
+            themeRef="/content/dam/formsanddocuments-themes/themeLibrary/wetcompliance"
             useExistingAF="false">
             <layout
                 jcr:primaryType="nt:unstructured"
@@ -43,235 +43,159 @@
                     enableLayoutOptimization="{Boolean}true"
                     toolbarPosition="Bottom"/>
                 <items jcr:primaryType="nt:unstructured">
-                    <basics
-                        jcr:description="Personal Information"
+                    <basics1
+                        jcr:description="Basic Information"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="General"
+                        jcr:title="Basic Information"
                         sling:resourceType="fd/af/components/panel"
-                        completionExpReq="{Boolean}false"
                         guideNodeClass="guidePanel"
-                        longDescription="&lt;p>Personal information section of the form&lt;/p>&#xd;&#xa;&#xd;&#xa;"
-                        name="general"
+                        longDescription="&lt;p>Basic information section of the form&lt;/p>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;"
+                        name="basics1"
                         textIsRich="true">
                         <items jcr:primaryType="nt:unstructured">
-                            <basics1
-                                jcr:description="Basic Information"
+                            <guidetextbox
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Basic Information"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                longDescription="&lt;p>Basic information section of the form&lt;/p>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;"
-                                name="basics1"
-                                textIsRich="true">
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guidetextbox
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="First Name"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideTextBox"
-                                        mandatory="true"
-                                        name="textbox1455878674524"
-                                        shortDescription="&lt;p>Applicant First Name&lt;/p>"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guidetextbox_1170565
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Last Name"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideTextBox"
-                                        mandatory="true"
-                                        name="textbox_11705659171455878681385"
-                                        shortDescription="&lt;p>Applicant Last Name&lt;/p>"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guideimagechoice2
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Gender"
-                                        sling:resourceType="fd/af/components/guideimagechoice"
-                                        alignment="guideFieldHorizontalAlignment"
-                                        guideNodeClass="guideRadioButton"
-                                        name="imagechoice1457080363345"
-                                        options="[Woman=./file-1,Man=./file-2]"
-                                        textIsRich="[true,true]">
-                                        <file-2/>
-                                        <file-1/>
-                                    </guideimagechoice2>
-                                    <guidedateinput
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Date of Birth"
-                                        sling:resourceType="fd/af/components/guidedateinput"
-                                        dateDisplayFormat="date{M/D/YYYY}"
-                                        guideNodeClass="guideDatePicker"
-                                        mandatory="true"
-                                        name="dateinput1455879035630"
-                                        placeholderDay="DD"
-                                        placeholderMonth="MM"
-                                        placeholderYear="YYYY"
-                                        textIsRich="[true,true]"
-                                        titleDay="Day"
-                                        titleMonth="Month"
-                                        titleYear="Year"/>
-                                    <guideradiobutton_37676193
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Marital Status"
-                                        sling:resourceType="fd/af/components/guideradiobutton"
-                                        guideNodeClass="guideRadioButton"
-                                        name="radiobutton_376761931456432027512"
-                                        options="[0=Single,1=Married]"
-                                        textIsRich="[true,true]"/>
-                                    <guidenumericstepper
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Number of Children"
-                                        sling:resourceType="fd/af/components/guidenumericstepper"
-                                        _value="1"
-                                        guideNodeClass="guideNumericBox"
-                                        name="numericstepper1456433056666"
-                                        stepSize="1"
-                                        textIsRich="[true,true]"/>
-                                </items>
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
-                                    nonNavigable="{Boolean}true"
-                                    toolbarPosition="Bottom"/>
-                            </basics1>
-                            <basics2
-                                jcr:description="Address"
+                                jcr:title="First Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="none"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="textbox1455878674524"
+                                shortDescription="&lt;p>Applicant First Name&lt;/p>"
+                                textIsRich="[true,true]"
+                                validationPatternType="none"/>
+                            <guidetextbox_1170565
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Address"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="address"
-                                textIsRich="true">
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guidenumericbox
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Zip Code"
-                                        sling:resourceType="fd/af/components/guidenumericbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideNumericBox"
-                                        name="zipCode"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guidetextbox
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Street Address"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideTextBox"
-                                        maxChars="0"
-                                        name="textbox1456027828835"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guidetextbox_559737731
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Landmark"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideTextBox"
-                                        name="textbox_5597377311456432344481"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guidetextbox_434181363
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="City"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideTextBox"
-                                        name="city"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guidetextbox_873479305
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="State"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideTextBox"
-                                        name="state"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guideradiobutton
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Is the above your permanent address?"
-                                        sling:resourceType="fd/af/components/guideradiobutton"
-                                        guideNodeClass="guideRadioButton"
-                                        name="radiobutton1456432828536"
-                                        options="[0=Yes,1=No]"
-                                        textIsRich="[true,true]"/>
-                                </items>
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
-                                    nonNavigable="{Boolean}true"
-                                    toolbarPosition="Bottom"/>
-                            </basics2>
-                            <employment
-                                jcr:description="Employment&#xd;&#xa;"
+                                jcr:title="Last Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="none"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                name="textbox_11705659171455878681385"
+                                shortDescription="&lt;p>Applicant Last Name&lt;/p>"
+                                textIsRich="[true,true]"
+                                validationPatternType="none"/>
+                            <guideimagechoice2
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Employment"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="employment"
-                                textIsRich="true">
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guidedropdownlist
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Employment Type"
-                                        sling:resourceType="fd/af/components/guidedropdownlist"
-                                        guideNodeClass="guideDropDownList"
-                                        name="dropdownlist1455887782299"
-                                        options="[Regular Full-Time Employees, Regular Part-Time Employees,Temporary Full-Time Employees,Temporary Part-Time Employees,Educational Appointments]"
-                                        textIsRich="[true,true]"/>
-                                    <guidetextbox
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Current Employment Firm"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideTextBox"
-                                        name="textbox1456432609237"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guidenumericbox
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Experience in current firm"
-                                        sling:resourceType="fd/af/components/guidenumericbox"
-                                        displayPatternType="none"
-                                        guideNodeClass="guideNumericBox"
-                                        name="numericbox1456432776214"
-                                        textIsRich="[true,true]"
-                                        validationPatternType="none"/>
-                                    <guidenumericstepper
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Total Experience (years)"
-                                        sling:resourceType="fd/af/components/guidenumericstepper"
-                                        guideNodeClass="guideNumericBox"
-                                        name="numericstepper1455887795734"
-                                        stepSize="1"
-                                        textIsRich="[true,true]"/>
-                                    <guideradiobutton
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Annual income"
-                                        sling:resourceType="fd/af/components/guideradiobutton"
-                                        guideNodeClass="guideRadioButton"
-                                        name="radiobutton1455887845020"
-                                        options="[0=Below $20000,1=$20000–$50000,2=$50000-$100000,3=$100000-$200000,4=Above $200000]"
-                                        textIsRich="[true,true]"/>
-                                </items>
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
-                                    nonNavigable="{Boolean}true"
-                                    toolbarPosition="Bottom"/>
-                            </employment>
+                                jcr:title="Gender"
+                                sling:resourceType="fd/af/components/guideimagechoice"
+                                alignment="guideFieldHorizontalAlignment"
+                                guideNodeClass="guideRadioButton"
+                                name="imagechoice1457080363345"
+                                options="[Woman=./file-1,Man=./file-2]"
+                                textIsRich="[true,true]">
+                                <file-2/>
+                                <file-1/>
+                            </guideimagechoice2>
+                            <guidedateinput
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Date of Birth"
+                                sling:resourceType="fd/af/components/guidedateinput"
+                                dateDisplayFormat="date{M/D/YYYY}"
+                                guideNodeClass="guideDatePicker"
+                                mandatory="true"
+                                name="dateinput1455879035630"
+                                placeholderDay="DD"
+                                placeholderMonth="MM"
+                                placeholderYear="YYYY"
+                                textIsRich="[true,true]"
+                                titleDay="Day"
+                                titleMonth="Month"
+                                titleYear="Year"/>
+                            <guideradiobutton_37676193
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Marital Status"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton_376761931456432027512"
+                                options="[0=Single,1=Married]"
+                                textIsRich="[true,true]"/>
+                            <guidenumericstepper
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Number of Children"
+                                sling:resourceType="fd/af/components/guidenumericstepper"
+                                _value="1"
+                                guideNodeClass="guideNumericBox"
+                                name="numericstepper1456433056666"
+                                stepSize="1"
+                                textIsRich="[true,true]"/>
                         </items>
                         <layout
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="fd/af/layouts/panel/tabbedPanelLayout"
-                            enableLayoutOptimization="{Boolean}true"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            nonNavigable="{Boolean}true"
                             toolbarPosition="Bottom"/>
-                    </basics>
+                    </basics1>
+                    <basics2
+                        jcr:description="Address"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Address"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="address"
+                        textIsRich="true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <guidenumericbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Zip Code"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                displayPatternType="none"
+                                guideNodeClass="guideNumericBox"
+                                name="zipCode"
+                                textIsRich="[true,true]"
+                                validationPatternType="none"/>
+                            <guidetextbox
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Street Address"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="none"
+                                guideNodeClass="guideTextBox"
+                                maxChars="0"
+                                name="textbox1456027828835"
+                                textIsRich="[true,true]"
+                                validationPatternType="none"/>
+                            <guidetextbox_559737731
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Landmark"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="none"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_5597377311456432344481"
+                                textIsRich="[true,true]"
+                                validationPatternType="none"/>
+                            <guidetextbox_434181363
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="City"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="none"
+                                guideNodeClass="guideTextBox"
+                                name="city"
+                                textIsRich="[true,true]"
+                                validationPatternType="none"/>
+                            <guidetextbox_873479305
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="State"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                displayPatternType="none"
+                                guideNodeClass="guideTextBox"
+                                name="state"
+                                textIsRich="[true,true]"
+                                validationPatternType="none"/>
+                            <guideradiobutton
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Is the above your permanent address?"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                guideNodeClass="guideRadioButton"
+                                name="radiobutton1456432828536"
+                                options="[0=Yes,1=No]"
+                                textIsRich="[true,true]"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                    </basics2>
                     <expenditure
                         jcr:description="Expenditure"
                         jcr:primaryType="nt:unstructured"

@@ -7,7 +7,7 @@
     <travel-and-tourism/>
     <uxp-examples/>
     <jcr:content
-        cq:lastModified="{Date}2021-05-01T15:21:34.066-04:00"
+        cq:lastModified="{Date}2021-12-22T11:28:42.113-05:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-02-15T19:16:59.857-05:00"
         cq:lastReplicatedBy="admin"
@@ -23,14 +23,15 @@
         cq:translationStatus="APPROVED"
         jcr:description="Accédez rapidement et facilement à tous les services et renseignements du gouvernement du Canada."
         jcr:isCheckedOut="{Boolean}true"
-        jcr:language="fr_ca"
+        jcr:language="fr"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Accueil"
         jcr:uuid="ab5d7935-0aca-478b-bdb1-bb4fb20c4b5b"
         sling:resourceType="adobeuxp/components/structure/page"
         navTitle="Accueil"
-        pageTitle="Accueil">
+        pageTitle="Accueil"
+        subtitle="English">
         <root
             jcr:lastModified="{Date}2020-11-13T12:41:23.464-05:00"
             jcr:lastModifiedBy="admin"

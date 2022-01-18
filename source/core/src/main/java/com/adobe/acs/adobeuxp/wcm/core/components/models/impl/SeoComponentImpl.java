@@ -12,7 +12,9 @@ governing permissions and limitations under the License.
 package com.adobe.acs.adobeuxp.wcm.core.components.models.impl;
 
 import com.adobe.acs.adobeuxp.wcm.core.components.models.SeoComponent;
+
 import com.adobe.cq.export.json.ExporterConstants;
+import com.adobe.cq.wcm.core.components.util.AbstractComponentImpl;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.wcm.api.NameConstants;
 
@@ -41,7 +43,7 @@ import org.apache.sling.models.annotations.Exporter;
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
 
 
-public class SeoComponentImpl implements SeoComponent {
+public class SeoComponentImpl extends AbstractComponentImpl implements SeoComponent {
 
 	protected static final String RESOURCE_TYPE = "adobeuxp/components/structure/seo";
 	private static final Logger LOGGER = LoggerFactory.getLogger(SeoComponentImpl.class);

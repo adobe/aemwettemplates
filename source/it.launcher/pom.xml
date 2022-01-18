@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.adobe.acs</groupId>
         <artifactId>adobeuxp</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.2.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -314,12 +314,12 @@
         <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>adobeuxp.it.tests</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>adobeuxp.core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.2.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

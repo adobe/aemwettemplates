@@ -2,8 +2,8 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/uxp" mode="replace"/>
     <filter root="/content/uxp" mode="update"/>
-    <filter root="/content/experience-fragments/uxp"/>
-    <filter root="/content/dam/uxp"/>
+    <filter root="/content/experience-fragments/uxp" mode="update"/>
+    <filter root="/content/dam/uxp" mode="update"/>
     <filter root="/content/dam/formsanddocuments/uxp" mode="update"/>
 	<filter root="/content/forms/af/uxp/" mode="update"/>
     <filter root="/content/dam/formsanddocuments-themes/themeLibrary/wetcompliance" mode="update"/>

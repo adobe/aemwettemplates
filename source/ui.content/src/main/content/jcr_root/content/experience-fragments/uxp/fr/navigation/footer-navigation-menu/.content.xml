@@ -3,13 +3,13 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-02-08T11:11:39.281-05:00"
+        cq:lastModified="{Date}2021-10-29T10:19:17.699-04:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/uxp/settings/wcm/templates/experience-fragment-web-variation"
         cq:xfVariantType="web"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:language="en"
+        jcr:language="fr"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Footer Navigation Menu"
@@ -177,14 +177,16 @@
                             <image
                                 jcr:created="{Date}2020-12-15T14:47:37.436-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-12-15T14:50:25.173-05:00"
+                                jcr:lastModified="{Date}2021-10-29T10:19:17.660-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="adobeuxp/components/content/image"
-                                altValueFromDAM="true"
+                                alt="Canada"
+                                altValueFromDAM="false"
                                 displayPopupTitle="true"
                                 fileReference="/content/dam/uxp/wmms-blk.svg"
                                 isDecorative="false"
+                                linkURL="/content/uxp/fr"
                                 titleValueFromDAM="true">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default

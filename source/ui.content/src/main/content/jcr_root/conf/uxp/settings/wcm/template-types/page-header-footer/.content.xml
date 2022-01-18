@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-30T16:53:04.938-04:00"
+        cq:lastModifiedBy="admin"
+        jcr:description="Simple template with header and footer"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Page with Header and Footer"
+        fileReference="/content/dam/uxp/thumbnailimage.png"
+        status="draft"/>
+</jcr:root>

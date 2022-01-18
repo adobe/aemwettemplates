@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:templateType="/libs/settings/wcm/template-types/afpage"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Basic Adaptive Form Template"
+        jcr:title="Government of Canada Form Template"
         fileReference="/content/dam/uxp/thumbnailimage.png"
         status="enabled"/>
 </jcr:root>

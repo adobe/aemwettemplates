@@ -30,6 +30,7 @@ import org.jetbrains.annotations.NotNull;
 import lombok.experimental.Delegate;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.wcm.core.components.models.LayoutContainer;
+import com.adobe.cq.wcm.core.components.util.AbstractComponentImpl;
 
 /**
  * Layout container model implementation.
@@ -42,7 +43,7 @@ import com.adobe.cq.wcm.core.components.models.LayoutContainer;
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL 
 )
 
-public class LayoutContainerUXPImpl implements LayoutContainer{
+public class LayoutContainerUXPImpl extends AbstractComponentImpl implements LayoutContainer{
 	/**
      * Standard logger.
      */

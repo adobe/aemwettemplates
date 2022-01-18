@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="cdb3d04b-d324-4693-b375-1b259967e2be">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-05-11T17:21:58.852Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2021-05-11T17:21:58.320Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}192"
+            dam:Physicalheightininches="{Decimal}2.4322917461395264"
+            dam:Physicalwidthindpi="{Long}192"
+            dam:Physicalwidthininches="{Decimal}6.026041507720947"
+            dam:Progressive="no"
+            dam:sha1="30948b6d99fcc8f4c9ecf47f408911e0ffb7ed87"
+            dam:size="{Long}67784"
+            dc:creator="[Jasmin Charbonneau]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            exif:DateTimeOriginal="{Date}2021-05-11T13:21:08.830Z"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:DateCreated="{Date}2021-05-11T13:21:08.830Z"
+            tiff:ImageLength="{Long}467"
+            tiff:ImageWidth="{Long}1157"
+            xmp:CreateDate="{Date}2021-05-11T13:21:08.830Z"
+            xmpMM:InstanceID="uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2021-05-11T17:22:08.253Z"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

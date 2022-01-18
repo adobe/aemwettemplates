@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
+    <testabc/>
     <jcr:content
-        cq:lastModified="{Date}2021-02-18T17:02:10.374Z"
-        cq:lastModifiedBy="translation-job-service"
+        cq:lastModified="{Date}2021-11-15T09:51:34.470-05:00"
+        cq:lastModifiedBy="admin"
         cq:lastTranslationDone="{Date}2021-02-18T17:02:10.374Z"
         cq:lastTranslationUpdate="{Date}2021-02-18T17:01:23.075Z"
         cq:template="/conf/uxp/settings/wcm/templates/topic-template"
@@ -15,6 +16,7 @@
         cq:translationStatus="COMPLETE"
         jcr:primaryType="cq:PageContent"
         jcr:title="Emplois"
+        sling:alias="emplois"
         sling:resourceType="adobeuxp/components/structure/page">
         <root
             jcr:lastModified="{Date}2020-11-13T12:41:23.464-05:00"

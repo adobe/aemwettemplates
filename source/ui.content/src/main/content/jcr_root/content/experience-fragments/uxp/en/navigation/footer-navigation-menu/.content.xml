@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-02-08T11:09:01.690-05:00"
+        cq:lastModified="{Date}2021-10-29T10:17:14.510-04:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/uxp/settings/wcm/templates/experience-fragment-web-variation"
@@ -179,14 +179,16 @@
                             <image
                                 jcr:created="{Date}2020-12-15T14:47:37.436-05:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-12-15T14:50:25.173-05:00"
+                                jcr:lastModified="{Date}2021-10-29T10:17:14.472-04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="adobeuxp/components/content/image"
-                                altValueFromDAM="true"
+                                alt="Canada"
+                                altValueFromDAM="false"
                                 displayPopupTitle="true"
                                 fileReference="/content/dam/uxp/wmms-blk.svg"
                                 isDecorative="false"
+                                linkURL="/content/uxp/en"
                                 titleValueFromDAM="true">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default

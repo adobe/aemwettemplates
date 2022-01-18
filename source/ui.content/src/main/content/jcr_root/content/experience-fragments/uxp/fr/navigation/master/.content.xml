@@ -8,7 +8,7 @@
         cq:template="/conf/uxp/settings/wcm/templates/experience-fragment-web-variation"
         cq:xfVariantType="web"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:language="en"
+        jcr:language="fr"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Header Navigation Menu"

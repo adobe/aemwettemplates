@@ -1,0 +1,45 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2020 Adobe
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<sly data-sly-use.detectlang="com.adobe.acs.adobeuxp.wcm.core.components.models.DetectLanguageForms"/>
+
+    <h2 class="wb-inv">${'Language selection' @i18n, locale=detectlang.lang}</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-inline mrgn-bttm-0">
+                <li>
+                <sly data-sly-test="${detectlang.lang == 'en'}">
+                    <a lang="fr" href="${detectlang.actionURL}">
+                    <span class="hidden-xs">${detectlang.label}</span>
+                    <abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+                 	</a>
+                 </sly >  
+                 <sly data-sly-test="${detectlang.lang == 'fr'}">
+                    <a lang="en" href="${detectlang.actionURL}">
+                    <span class="hidden-xs">${detectlang.label}</span>
+                    <abbr title="English" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">en</abbr>
+                     </a>       
+                 </sly >  
+                 
+                <sly data-sly-test="${detectlang.lang != 'en' && detectlang.lang != 'fr'}">
+                    <a lang="fr" href="${detectlang.actionURL}?afAcceptLang=fr&wcmmode=disabled">
+                    <span class="hidden-xs">Français</span>
+                    <abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+                 	</a>
+                 </sly > 
+                </li>
+            </ul>
+        </div>
+    </div>

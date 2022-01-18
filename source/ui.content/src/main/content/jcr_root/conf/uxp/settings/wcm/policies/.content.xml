@@ -963,7 +963,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="UXP Adaptive Form Guide Container Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:UXP.Content]"
+                        components="[group:Adaptive Form]"
                         disableLayoutMode="false">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">

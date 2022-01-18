@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-30T16:51:58.766-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/uxp/settings/wcm/template-types/page-header-footer"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="adobeuxp/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2020-11-13T12:41:23.464-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2020-11-13T12:49:38.066-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-13T12:50:51.076-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="adobeuxp/components/content/responsivegrid">
+                <container
+                    jcr:created="{Date}2020-11-13T12:54:12.089-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-02-17T19:07:25.041-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="adobeuxp/components/content/wcontainer"
+                    container="main"
+                    layout="responsiveGrid">
+                    <title
+                        jcr:created="{Date}2021-02-17T19:04:53.257-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-02-17T19:04:53.257-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="adobeuxp/components/content/title"/>
+                </container>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
